@@ -1,6 +1,6 @@
 package com.epi;
 
-import com.epi.BinaryTreeWithParentPrototype.BinaryTree;
+import com.epi.tree.BinaryTreeWithParentPrototype.BinaryTree;
 
 import java.util.ArrayList;
 import java.util.List;

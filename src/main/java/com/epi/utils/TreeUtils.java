@@ -1,6 +1,6 @@
 package com.epi.utils;
 
-import com.epi.BinaryTreePrototypeTemplate;
+import com.epi.tree.BinaryTreePrototypeTemplate;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
 package com.epi.utils;
 
-import com.epi.BinarySearchTreePrototypeTemplate;
-import com.epi.BinaryTreePrototypeTemplate;
+import com.epi.search.BinarySearchTreePrototypeTemplate;
+import com.epi.tree.BinaryTreePrototypeTemplate;
 
 import javax.json.Json;
 import javax.json.JsonArrayBuilder;

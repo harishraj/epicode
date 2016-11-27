@@ -1,6 +1,6 @@
 package com.epi;
 
-import com.epi.BinarySearchTreePrototypeTemplate.BSTNode;
+import com.epi.search.BinarySearchTreePrototypeTemplate.BSTNode;
 
 public class MergeTwoBSTs {
     private static BSTNode<Integer> head;
