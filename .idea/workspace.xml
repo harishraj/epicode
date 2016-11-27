@@ -2,528 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11b27b9d-229f-4085-857b-af376b9be622" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/.clang-format" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/0-1_knapsack.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/0-sum_subset.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/2-difference.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/2-exists.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/2-for-all.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/2_sum.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/2_sum.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/3-sum-closest.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/3-sum.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/4-sum.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Add_operators_in_string.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/AddingCredits.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Anagrams.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Anonymous_letter.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Approximate_sort.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Arbitrage.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/BST_lowest_common_ancestor.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/BST_parent_prototype.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/BST_prototype.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/BST_prototype_shared_ptr.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/BST_sorted_order.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/BST_to_sorted_doubly_list.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Balanced_binary_tree.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Bentleybsearch.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Biggest_product_n-1.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Biggest_product_n-1_math.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Bignumber_multiplication.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Binary_search_Ai=i.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Binary_search_circular_array.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Binary_search_circular_array_with_duplicates.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Binary_search_first_k.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Binary_search_larger_k.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Binary_search_unknown_length.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Binary_tree_level_order.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Binary_tree_lock.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Binary_tree_prototype.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Binary_tree_to_doubly_linked_list.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Binary_tree_utils.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Binary_tree_with_parent_prototype.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Build_BST_from_sorted_array.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Can_string_be_palindrome.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Can_string_be_palindrome_hash.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Can_string_be_palindrome_sorting.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Celebrity_finding.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Checking_cycle.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Checking_cycle.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Checking_cycle_alternative.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Circular_queue.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Close_search.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Closest_int_same_bits.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Closest_pair_points.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Closest_palindrome.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Closest_stars.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Closest_to_median.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Collatz_conjecture.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Compare_k-th_largest_in_heap.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Completion_search.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Completion_search_space_efficient.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Computing_binomial_coefficients.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Computing_x^n.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Connect_leaves_binary_tree.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Conversion_sorted_array.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Convert_base.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Copying_postings_list.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Count_inversions.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Count_occurrences_in_sentence.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Deletion_list.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Descendant_and_ancestor.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Division.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/DivisionFloat.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Division_no_operator.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Doors.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Doubly_linked_list_prototype.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Drawing_skylines.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Dutch_national_flag.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Elias_coding.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Eliminate_duplicate.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Equiv_classes.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Even_odd_merge_linked_list.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Exterior_binary_tree.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Find_element_appears_once.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Find_k_largest_BST.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Find_kth_element_in_two_sorted_arrays.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Find_longest_arithmetic_progression.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Find_missing_and_duplicate.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Find_missing_and_duplicate_XOR.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Finding_min_max.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/GCD.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/GCD1.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/GCD1.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/GCD2.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Gassing_up.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Gaussian_elimination.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Gaussian_primes.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Generate_spiral_matrix.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Generating_a_b_sqrt2.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Hash_dictionary.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Height_determination.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/House_majority.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Huffman_encoding.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Image_compression.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Inorder_traversal_with_parent.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Interconverting_string_integer.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Intersect_rectangle.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Intersect_sorted_arrays.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Intersect_sorted_arrays1.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Intersect_sorted_arrays2.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Intersect_sorted_arrays3.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/LRUCache.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Largest_rectangle_under_skyline.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Largest_rectangle_under_skyline.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Lead_changes.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Levenshtein_distance.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Line_most_points.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Linked_list_prototype.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Load_balancing.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Longest_increasing_subarray.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Longest_nondecreasing_subsequence.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Longest_nondecreasing_subsequence_n2.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Longest_nondecreasing_subsequence_nlogn.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Longest_subarray_k.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Longest_subarray_k_improved.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Lowest_common_ancestor.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Lowest_common_ancestor_hash.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Lowest_common_ancestor_no_parent.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Matrix_rotation.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Matrix_rotation_constant.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Matrix_rotation_naive.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Matrix_search.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Max-sum_subarray.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Max_concatenation_numbers.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Max_difference_k_pairs.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Max_difference_unlimited_pairs.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Max_submatrix_rectangle.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Max_submatrix_rectangle_brute_force.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Max_submatrix_rectangle_improved.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Max_submatrix_square.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Maximum_container.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Maximum_minimum_difference_k.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Maximum_sliding_window.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Maximum_sliding_window_template.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Maximum_subarray_in_circular_array.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Maximum_subarray_in_circular_array_constant_space.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Median_sorted_circular_linked_list.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Merge_sorted_arrays.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Merge_sorted_arrays.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Merge_sorted_lists.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Merge_sorted_lists.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Merge_two_BSTs.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Minimum_distance_3_sorted_arrays.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Minimum_subarray_difference.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Minimum_waiting_time.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Missing_element.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Morris_traversal.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Multibet_card_color_game.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/MultiplyShiftAdd.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Nearest_repetition.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Nearest_restaurant.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Next_permutation.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Number_ways.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Number_ways_obstacles.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Offline_minimum.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Offline_sampling.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Offline_sampling.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Online_median.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Online_sampling.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Overlapping_days.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Overlapping_lists.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Overlapping_lists_no_cycle.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Overlapping_lists_no_cycle.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Painting_iterative.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Painting_recursive.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Palindrome_linked_list.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Parity.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Parity1.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Parity1.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Parity2.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Parity3.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Parity4.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Partition_2_same_average.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Permutation_array.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Permutation_array1.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Permutation_array2.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Phone_mnemonic.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Picking_up_coins.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Picking_up_coins_dont_lose.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Planning_fishing.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Point.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Points_covering_intervals.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Points_covering_intervals_alternative.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Postings_list_prototype.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Power_set.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Power_set_alternative.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Pretty_printing.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Prime_sieve.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Queue_from_stacks.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Queue_using_two_integers.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Queue_with_max.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Queue_with_max_alternative.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Queue_with_max_alternative.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/RPN.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Rays_covering_arcs.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Rearrange.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Rebuild_BST_postorder.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Rebuild_BST_postorder_better.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Rebuild_BST_preorder.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Rebuild_BST_preorder_better.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Reconstruct_binary_tree_post_in_orders.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Reconstruct_binary_tree_pre_in_orders.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Reconstruct_preorder_with_null.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Reconstruct_preorder_with_null.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Regular_expression.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Remove_kth_last_list.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Rendering_calendar.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Replace_and_remove.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Reservoir_sampling.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Reverse_bits.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Reverse_linked_list_iterative.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Reverse_linked_list_iterative.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Reverse_linked_list_recursive.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Reverse_words.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Road_network.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Rotate_array.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Rotate_array.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Rotate_array_permutation.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Run_length_compression.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Score_combination.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Score_combination_alternative.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Score_permutation.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Search_BST_first_larger_k.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Search_BST_for_first_occurrence_iterative.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Search_BST_for_first_occurrence_recursive.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Search_a_pair_sorted_array.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Search_frequent_items.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Search_majority.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Search_maze.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Search_min_first_BST.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Search_postings_list_iterative.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Search_postings_list_recursive.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Semaphore.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/SemaphoreGaurav.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Shortest_path_fewest_edges.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Shortest_unique_prefix.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Sliding_window.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Smallest_subarray_covering_set.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Smallest_subarray_covering_set.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Smallest_subarray_covering_set_stream.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Sorted_list_to_BST.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Spiral_matrix.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Spiral_matrix_clockwise.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Spreadsheet_encoding.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Square_root.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Stable_assignment.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Stack_queue_using_heap.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Stack_sorting.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Stack_with_max.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Stack_with_max.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Stack_with_max_improved.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/String_in_matrix.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/String_matching_wildcard.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Subseq_cover.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Successor.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Sudoku_solve.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Symmetric_binary_tree.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Tail.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Tail_coin.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Task_assignment.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Team_photo_1.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Team_photo_2.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Theory_of_equality.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Three_jugs.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Ties_election.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Tournament_tree.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Transform_string_to_other.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Transitive_closure.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Tree_diameter.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Uniform_random_number_generation.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Union_intervals.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Update_BST.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/View_from_above.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/View_sunset.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Wiring_circuit_board.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Word_breaking.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Word_breaking_alternative.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/Zipping_list.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/a.out.dSYM/Contents/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/add-binary.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/add-two-number-list.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/async_thread.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/average-top-3-scores.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/badmacro.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/badrtti.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/badrtti2.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/binary-tree-level-order-bottom-up.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/binary-tree-postorder-traversal-iterative-alternative.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/binary-tree-postorder-traversal-iterative.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/binary-tree-preorder-traversal-iterative.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/binary-tree-zigzag-level-order-traversal.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/bonus-improved.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/bonus.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/buy-and-sell-stock-twice.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/buy-and-sell-stock.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/c++11random.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/checksolutions.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/climb-stairs.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/clone-graph.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/closest-int-same-bits-alternative.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/closest_int_same_bits_alternative.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/coin_change.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/collatz.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/combinations-unique.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/combinations.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/compute_random_permutation.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/container-with-most-water.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/count_bits.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/cpplint.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/cyclic-right-shift.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/defaultconstructor.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/delete_list.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/distinct-sorted-list.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/drawing_skylines_alternative.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/dutch_national_flag_slow_inplace.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/dutch_national_flag_two_passes.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/even_odd_array.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/execute-shell.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/fibonacci-iterative.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/fibonacci.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/first-missing-positive.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/format.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/generate-parentheses.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/generating-a-b-sqrt2-improved.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/generating-a-b-sqrt2-improved.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/generating-a-b-sqrt2.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/generating-a-b-sqrt2.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/goodrtti.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/gray-code-backtrack.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/gray-code-backtrack.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/gray-code.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/highest-affinity-pairs.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/indirect_sort.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/inlineexample.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/insert-interval.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/insert_list.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/insertion-deletion-BST.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/insertion-sort-list.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/integer-to-roman.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/interleaving-string.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/is_binary_tree_a_BST.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/is_binary_tree_a_BST_BFS.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/is_binary_tree_a_BST_const_space.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/is_palindromic.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/job_assignment.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/jump-game-min-steps.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/jump-game.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/justify-text.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/k-balanced_binary_tree.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/k-largest-elements-binary-heap.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/k-th_element_streaming.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/k-th_largest_element_large_n.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/k-th_node_binary_tree.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/k-th_permutation.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/largearray.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/lazy-init.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/length-of-last-word.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/list-pivoting.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/lock_ordering_bug.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/lock_ordering_works.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/longest-contained-range.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/longest-subarray-with-distinct-entries.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/longest-substring-without-repeating-characters.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/longest-valid-parentheses.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/longest_valid_parentheses_const_space.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/look-and-say.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/magic-maze-game.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/magic_maze_game.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/mapupdate1.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/mapupdate2.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/mapupdate3.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/mapupdate4.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/mapupdate5.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/matrix-rotation-flip.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/maze-game-main.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/maze-game.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/maze_game.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/maze_game_main.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/merge-two-sorted-arrays-in-place.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/merge_contacts.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/minmaxtemplate.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/minmaxtemplatemove.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/multiply_shift_add.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/n-queens-count.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/n-queens-permutation.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/n-queens.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/nnChomp.pseudo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/nonconstructible-change.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/nonuniform_random_number_generation.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/normalized_pathnames.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/number-steps.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/odd_even.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/order_statistic.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/ordinary-maze-game.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/ordinary_maze_game.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/palindrome-number.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/palindrome-partitioning-min-cuts.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/palindrome-partitioning.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/partition-array.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/pascal-triangle-1.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/pascal-triangle-2.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/passbyvaluebug.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/path-sum-binary-tree-all.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/path-sum-binary-tree.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/permutations-alternative.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/permutations-unique.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/permutations.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/plus-one.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/points_covering_intervals_sorting.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/polymorphismproblems.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/polymorphismproblemsfixed.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/populating-next-right-pointers-any-binary-tree.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/populating-next-right-pointers.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/power-x-y.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/ppp.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/prefix-search.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/prime-sieve-basic.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/print_linked_list_reverse_order.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/queue_with_max_intro.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/rabin-karp.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/range-lookup-BST.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/reconstruct-almost-bst.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/recover-binary-search-tree-constant-space.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/remove-duplicates-from-sorted-array.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/remove-duplicates-sorted-list.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/remove-element.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/remove-twice-duplicates-from-sorted-array.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/reverse-integer.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/reverse-list-in-k-group.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/reverse_linked_list_from_s_to_f.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/roman-to-integer.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/rook-attack.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/rw.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/s1.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/s2.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/scramble-string.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/search-a-range-sorted-array.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/search-insert-position-sorted-array.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/search-rotated-sorted-array-with-duplicates.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/search-rotated-sorted-array.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/search_BST.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/search_list.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/simple_web_server.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/smartpointers.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/snake-string.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/solutions.tex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/sort-list.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/sort_k-increasing-decreasing_array.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/spell.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/square-root-int.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/student_search.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/student_sort.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/substring-with-concatenation-of-all-words.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/sudoku_check.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/sum-root-to-leaf-binary-tree.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/surrounded-regions.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/swap_bits.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/swap_bits.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/task_execution_web_server.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/team_reachability.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/test_toolkit/dummy.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/test_toolkit/grammatical-printer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/test_toolkit/json-writer-test.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/test_toolkit/json-writer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/test_toolkit/main_def.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/test_toolkit/more_type_traits.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/test_toolkit/performance-timer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/test_toolkit/signal-handler.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/test_toolkit/test-options.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/test_toolkit/tree_utils.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/thread_per_task_webserver.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/top_k.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/tower_hanoi.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/trapping-rain-water.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/tree_traversal.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/triangle.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/two_thread_increment.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/unique-binary-trees-all.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/unique-binary-trees.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/valid-IP-address.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/valid-number.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/valid-palindrome.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/valid-parentheses.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/valid_IP_address_recursive.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/word-breaking-2.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpp/zigzag-conversion.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpptest/AnagramsTest.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpptest/Anonymous_letterTest.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpptest/Balanced_binary_treeTest.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpptest/Convert_baseTest.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpptest/Gassing_upTest.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpptest/Matrix_searchTest.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpptest/Number_waysTest.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpptest/RPNTest.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpptest/Spreadsheet_encodingTest.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpptest/Sudoku_solveTest.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpptest/container-with-most-waterTest.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpptest/first-missing-positiveTest.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpptest/intersect_sorted_arrays3Test.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpptest/normalized_pathnamesTest.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpptest/palindrome-numberTest.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpptest/snake-stringTest.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpptest/square-root-intTest.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/epijudge/A.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/epijudge/A.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/epijudge/A.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/epijudge/Atest.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/epijudge/Atest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/epijudge/file.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/epijudge/judgetest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/epijudge/testutils.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/TODO.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/Combinations.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/Combinations.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/GenerateParentheses.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/GenerateParentheses.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/NQueens.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/NQueens.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/PermutationArray.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PermutationArray.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/PermutationArray1.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PermutationArray1.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/PermutationArray2.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PermutationArray2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/Permutations.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/Permutations.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/PermutationsAlternative.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PermutationsAlternative.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/PowerSet.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PowerSet.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/PowerSetAlternative.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PowerSetAlternative.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonPairWriter.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonPairWriter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestOptions.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestOptions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestStream.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestStream.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonUniversalObjectWriter.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonUniversalObjectWriter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="epicode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -545,71 +39,99 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestAll.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/test/test/java/com/epi/TestAll.java">
+      <file leaf-file-name="NQueens.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/NQueens.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".clang-format" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/.clang-format">
+      <file leaf-file-name="PermutationArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PermutationArray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContainerWithMostWater.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/ContainerWithMostWater.java">
+      <file leaf-file-name="JsonPairWriter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonPairWriter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="format.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/format.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LRUCache.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/LRUCache.java">
+      <file leaf-file-name="JsonTestStream.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestStream.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="71" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
-              <folding />
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
+                <element signature="e#907#908#0" expanded="true" />
+                <element signature="e#940#941#0" expanded="true" />
+                <element signature="e#997#998#0" expanded="true" />
+                <element signature="e#1066#1067#0" expanded="true" />
+                <element signature="e#2188#2189#0" expanded="true" />
+                <element signature="e#2243#2244#0" expanded="true" />
+                <element signature="e#2312#2313#0" expanded="true" />
+                <element signature="e#2377#2378#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AsyncThread.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/AsyncThread.java">
+      <file leaf-file-name="JsonTestOptions.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestOptions.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BalancedBinaryTreeTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/BalancedBinaryTreeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3743#3744#0" expanded="true" />
+                <element signature="e#3799#3800#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PowerSet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PowerSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GCD.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/GCD.java">
+      <file leaf-file-name="Combinations.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/Combinations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.088757396">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -625,13 +147,35 @@
       <projects_view />
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/NQueens.java" />
+        <option value="$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PermutationArray.java" />
+        <option value="$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PowerSet.java" />
+        <option value="$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/Combinations.java" />
+        <option value="$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/GenerateParentheses.java" />
+        <option value="$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonUniversalObjectWriter.java" />
+        <option value="$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestStream.java" />
+        <option value="$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestOptions.java" />
+        <option value="$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonPairWriter.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="NamedScopeManager">
     <order />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="68" />
     <option name="y" value="23" />
-    <option name="width" value="1356" />
+    <option name="width" value="1372" />
     <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -657,9 +201,21 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="epicode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="epicode" />
@@ -694,16 +250,65 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="epicode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="epi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/javax.json-1.0.jar!/" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.epi.backtracking" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GenerateParentheses">
+    <configuration default="false" name="GenerateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.epi.backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.epi.backtracking.GenerateParentheses" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="main" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -921,6 +526,14 @@
       <envs />
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.GenerateParentheses" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.GenerateParentheses" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="externalProjectsViewState">
@@ -938,31 +551,32 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="68" y="23" width="1356" height="773" extended-state="0" />
+    <frame x="68" y="23" width="1372" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24708454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -973,12 +587,283 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/test/test/java/com/epi/TestAll.java">
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonUniversalObjectWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/BalancedBinaryTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3743#3744#0" expanded="true" />
+            <element signature="e#3799#3800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PowerSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/Combinations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/NQueens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PermutationArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonPairWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#2188#2189#0" expanded="true" />
+            <element signature="e#2243#2244#0" expanded="true" />
+            <element signature="e#2312#2313#0" expanded="true" />
+            <element signature="e#2377#2378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonUniversalObjectWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/BalancedBinaryTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3743#3744#0" expanded="true" />
+            <element signature="e#3799#3800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PowerSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/Combinations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/NQueens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PermutationArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonPairWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#2188#2189#0" expanded="true" />
+            <element signature="e#2243#2244#0" expanded="true" />
+            <element signature="e#2312#2313#0" expanded="true" />
+            <element signature="e#2377#2378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonUniversalObjectWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/BalancedBinaryTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3743#3744#0" expanded="true" />
+            <element signature="e#3799#3800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PowerSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/Combinations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/NQueens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/MazeGameMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/MazeGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PermutationArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PowerSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/Combinations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/ValidParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -986,15 +871,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/test/test/java/com/epi/TestAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42159763">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/ContainerWithMostWater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.9556213">
           <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,23 +892,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/LRUCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.5769231">
           <caret line="29" column="71" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/AsyncThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.44526628">
           <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1026,9 +913,230 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.088757396">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/DutchNationalFlag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="45" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/MazeGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PowerSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/GassingUpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2027027">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/GenerateParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13513513">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/ValidParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37869823">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/Combinations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/MazeGameMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.044378698">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/NQueens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PermutationArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/BalancedBinaryTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3743#3744#0" expanded="true" />
+            <element signature="e#3799#3800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#2188#2189#0" expanded="true" />
+            <element signature="e#2243#2244#0" expanded="true" />
+            <element signature="e#2312#2313#0" expanded="true" />
+            <element signature="e#2377#2378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonPairWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonUniversalObjectWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5630631">
+          <caret line="109" column="79" selection-start-line="109" selection-start-column="79" selection-end-line="109" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.10.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>main</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
