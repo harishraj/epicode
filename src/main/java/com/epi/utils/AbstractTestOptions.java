@@ -1,15 +1,17 @@
 package com.epi.utils;
 
 public abstract class AbstractTestOptions {
-  public abstract AbstractTestStream getStream();
-  public abstract void startTests(int id, String description);
-  public abstract void endTests();
+    public abstract AbstractTestStream getStream();
 
-  public int performanceTestLimitMultiplier() {
-    return 4;
-  }
+    public abstract void startTests(int id, String description);
 
-  public int performanceTestLoadMultiplier() {
-    return 1000;
-  }
+    public abstract void endTests();
+
+    public int performanceTestLimitMultiplier() {
+        return 4;
+    }
+
+    public int performanceTestLoadMultiplier() {
+        return 1000;
+    }
 }

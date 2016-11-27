@@ -2,26 +2,432 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11b27b9d-229f-4085-857b-af376b9be622" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/Combinations.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/Combinations.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/GenerateParentheses.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/GenerateParentheses.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/NQueens.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/NQueens.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/PermutationArray.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PermutationArray.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/PermutationArray1.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PermutationArray1.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/PermutationArray2.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PermutationArray2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/Permutations.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/Permutations.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/PermutationsAlternative.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PermutationsAlternative.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/PowerSet.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PowerSet.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/PowerSetAlternative.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PowerSetAlternative.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonPairWriter.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonPairWriter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestOptions.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestOptions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestStream.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestStream.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonUniversalObjectWriter.java" afterPath="$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonUniversalObjectWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/epi/backtracking/KnightTour.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_collections_google_collections_1_0_rc2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/epicode.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java/src/main/main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/utils/AbstractPairWriter.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/utils/AbstractPairWriter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/utils/AbstractTestOptions.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/utils/AbstractTestOptions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/utils/AbstractTestStream.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/utils/AbstractTestStream.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/AddOperatorsInString.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/AddOperatorsInString.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/AddTwoNumberList.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/AddTwoNumberList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/AddingCredits.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/AddingCredits.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/Anagrams.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/Anagrams.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/AnonymousLetter.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/AnonymousLetter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/AnonymousLetterTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/AnonymousLetterTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ApproximateSort.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ApproximateSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/Arbitrage.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/Arbitrage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/AsyncThread.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/AsyncThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/AverageTop3Scores.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/AverageTop3Scores.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BSTLowestCommonAncestor.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BSTLowestCommonAncestor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BSTSortedOrder.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BSTSortedOrder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BSTToSortedDoublyList.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BSTToSortedDoublyList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BadArrayListStore.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BadArrayListStore.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BadArrayStore.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BadArrayStore.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BadAssert.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BadAssert.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BalancedBinaryTree.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BalancedBinaryTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BalancedBinaryTreeTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BalancedBinaryTreeTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BasicStaticInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BasicStaticInitializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BentleyBsearch.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BentleyBsearch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BigNumberMultiplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BigNumberMultiplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BiggestProductNMinus1.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BiggestProductNMinus1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BiggestProductNMinus1Math.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BiggestProductNMinus1Math.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BinarySearchAiEqI.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BinarySearchAiEqI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BinarySearchCircularArray.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BinarySearchCircularArray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BinarySearchCircularArrayWithDuplicates.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BinarySearchCircularArrayWithDuplicates.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BinarySearchFirstK.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BinarySearchFirstK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BinarySearchLargerK.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BinarySearchLargerK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BinarySearchTreePrototypeTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BinarySearchTreePrototypeTemplate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BinarySearchUnknownLength.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BinarySearchUnknownLength.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BinaryTreeLevelOrder.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BinaryTreeLevelOrder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BinaryTreeLock.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BinaryTreeLock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BinaryTreePostorderTraversalIterative.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BinaryTreePostorderTraversalIterative.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BinaryTreePostorderTraversalIterativeAlternative.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BinaryTreePostorderTraversalIterativeAlternative.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BinaryTreePreorderTraversalIterative.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BinaryTreePreorderTraversalIterative.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BinaryTreePrototypeTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BinaryTreePrototypeTemplate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BinaryTreeUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BinaryTreeUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BinaryTreeWithParentPrototype.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BinaryTreeWithParentPrototype.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/Bonus.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/Bonus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BonusImproved.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BonusImproved.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BuildBSTFromSortedArray.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BuildBSTFromSortedArray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BuyAndSellStock.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BuyAndSellStock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/BuyAndSellStockTwice.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/BuyAndSellStockTwice.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/CanStringBePalindrome.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/CanStringBePalindrome.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/CanStringBePalindromeHash.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/CanStringBePalindromeHash.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/CanStringBePalindromeSorting.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/CanStringBePalindromeSorting.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/CelebrityFinding.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/CelebrityFinding.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/CheckingCycle.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/CheckingCycle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/CheckingCycleAlternative.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/CheckingCycleAlternative.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/CircularQueue.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/CircularQueue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/CloneGraph.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/CloneGraph.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/CloseSearch.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/CloseSearch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ClosestIntSameBits.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ClosestIntSameBits.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ClosestIntSameBitsAlternative.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ClosestIntSameBitsAlternative.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ClosestPairPoints.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ClosestPairPoints.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ClosestPalindrome.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ClosestPalindrome.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ClosestStars.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ClosestStars.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ClosestToMedian.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ClosestToMedian.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/CoinChange.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/CoinChange.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/Collatz.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/Collatz.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/CollatzConjecture.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/CollatzConjecture.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/backtracking/Combinations.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/backtracking/Combinations.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/CompareKthLargestInHeap.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/CompareKthLargestInHeap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/CompletionSearch.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/CompletionSearch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ComputeRandomPermutation.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ComputeRandomPermutation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ComputingBinomialCoefficients.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ComputingBinomialCoefficients.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ComputingXPowN.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ComputingXPowN.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ConnectLeavesBinaryTree.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ConnectLeavesBinaryTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ContainerWithMostWater.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ContainerWithMostWater.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ContainerWithMostWaterTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ContainerWithMostWaterTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ConvertBase.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ConvertBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ConvertBaseTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ConvertBaseTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/CopyingPostingsList.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/CopyingPostingsList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/CountBits.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/CountBits.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/CountInversions.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/CountInversions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/CountOccurrencesInSentence.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/CountOccurrencesInSentence.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/CyclicRightShift.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/CyclicRightShift.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/DeleteList.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/DeleteList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/DeletionList.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/DeletionList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/DescendantAndAncestor.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/DescendantAndAncestor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/Division.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/Division.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/Doors.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/Doors.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/DoublyLinkedListPrototypeTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/DoublyLinkedListPrototypeTemplate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/DrawingSkylines.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/DrawingSkylines.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/DrawingSkylinesAlternative.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/DrawingSkylinesAlternative.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/DutchNationalFlag.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/DutchNationalFlag.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/DutchNationalFlagSlowInplace.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/DutchNationalFlagSlowInplace.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/DutchNationalFlagTwoPasses.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/DutchNationalFlagTwoPasses.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/EliasCoding.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/EliasCoding.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/EliminateDuplicate.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/EliminateDuplicate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/EquivClasses.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/EquivClasses.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/EvenOddArray.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/EvenOddArray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/EvenOddMergeLinkedList.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/EvenOddMergeLinkedList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ExteriorBinaryTree.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ExteriorBinaryTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/Fibonacci.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/Fibonacci.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/FibonacciIterative.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/FibonacciIterative.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/FindElementAppearsOnce.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/FindElementAppearsOnce.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/FindKLargestBST.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/FindKLargestBST.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/FindKthElementInTwoSortedArrays.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/FindKthElementInTwoSortedArrays.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/FindMissingAndDuplicate.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/FindMissingAndDuplicate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/FindMissingAndDuplicateXOR.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/FindMissingAndDuplicateXOR.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/FindMissingBetter.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/FindMissingBetter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/FindingMinMax.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/FindingMinMax.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/FirstMissingPositive.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/FirstMissingPositive.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/FirstMissingPositiveTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/FirstMissingPositiveTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/GCD.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/GCD.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/GCD1.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/GCD1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/GCD2.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/GCD2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/GassingUp.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/GassingUp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/GaussianElimination.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/GaussianElimination.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/GaussianPrimes.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/GaussianPrimes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/GeneratingABSqrt2.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/GeneratingABSqrt2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/GeneratingABSqrt2Improved.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/GeneratingABSqrt2Improved.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/GrayCode.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/GrayCode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/GrayCodeBacktrack.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/GrayCodeBacktrack.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/HashDictionary.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/HashDictionary.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/HeightDetermination.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/HeightDetermination.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/HighestAffinityPairs.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/HighestAffinityPairs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/HouseMajority.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/HouseMajority.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/HuffmanEncoding.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/HuffmanEncoding.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ImageCompression.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ImageCompression.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/IndirectSort.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/IndirectSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/InorderTraversalNoStack.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/InorderTraversalNoStack.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/InorderTraversalWithParent.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/InorderTraversalWithParent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/InsertInterval.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/InsertInterval.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/InsertList.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/InsertList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/InsertionDeletionBST.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/InsertionDeletionBST.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/InsertionSortList.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/InsertionSortList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/InterconvertingStringInteger.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/InterconvertingStringInteger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/InterleavingString.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/InterleavingString.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/IntersectRectangle.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/IntersectRectangle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/IntersectSortedArrays.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/IntersectSortedArrays.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/IntersectSortedArrays1.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/IntersectSortedArrays1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/IntersectSortedArrays2.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/IntersectSortedArrays2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/IntersectSortedArrays3.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/IntersectSortedArrays3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/IntersectSortedArrays3Test.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/IntersectSortedArrays3Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/IsBinaryTreeABST.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/IsBinaryTreeABST.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/IsBinaryTreeABSTBFS.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/IsBinaryTreeABSTBFS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/IsBinaryTreeABSTConstSpace.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/IsBinaryTreeABSTConstSpace.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/IsPalindromic.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/IsPalindromic.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/JobAssignment.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/JobAssignment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/utils/JsonPairWriter.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/utils/JsonPairWriter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/utils/JsonTestOptions.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/utils/JsonTestOptions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/utils/JsonTestStream.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/utils/JsonTestStream.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/utils/JsonUniversalObjectWriter.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/utils/JsonUniversalObjectWriter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/JumpGame.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/JumpGame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/JustifyText.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/JustifyText.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/KBalancedBinaryTree.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/KBalancedBinaryTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/KLargestElementsBinaryHeap.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/KLargestElementsBinaryHeap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/KThNodeBinaryTree.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/KThNodeBinaryTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/KthElementStreaming.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/KthElementStreaming.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/KthLargestElementLargeN.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/KthLargestElementLargeN.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/LRUCache.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/LRUCache.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/LargeArray.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/LargeArray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/LargestRectangleUnderSkyline.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/LargestRectangleUnderSkyline.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/LazyInit.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/LazyInit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/LevenshteinDistance.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/LevenshteinDistance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/LineMostPoints.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/LineMostPoints.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/LinkedListPrototypeTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/LinkedListPrototypeTemplate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ListPivoting.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ListPivoting.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/LoadBalancing.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/LoadBalancing.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/LockOrderingBug.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/LockOrderingBug.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/LockOrderingWorks.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/LockOrderingWorks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/LongestContainedRange.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/LongestContainedRange.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/LongestIncreasingSubarray.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/LongestIncreasingSubarray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/LongestNondecreasingSubsequence.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/LongestNondecreasingSubsequence.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/LongestNondecreasingSubsequenceN2.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/LongestNondecreasingSubsequenceN2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/LongestNondecreasingSubsequenceNlogn.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/LongestNondecreasingSubsequenceNlogn.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/LongestSubarrayK.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/LongestSubarrayK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/LongestSubarrayKImproved.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/LongestSubarrayKImproved.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/LongestSubarrayWithDistinctEntries.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/LongestSubarrayWithDistinctEntries.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/LongestValidParentheses.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/LongestValidParentheses.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/LongestValidParenthesesConstSpace.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/LongestValidParenthesesConstSpace.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/LookAndSay.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/LookAndSay.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/LowestCommonAncestor.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/LowestCommonAncestor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/LowestCommonAncestorHash.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/LowestCommonAncestorHash.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/LowestCommonAncestorNoParent.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/LowestCommonAncestorNoParent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MagicMazeGame.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MagicMazeGame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MatrixRotation.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MatrixRotation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MatrixRotationConstant.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MatrixRotationConstant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MatrixRotationNaive.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MatrixRotationNaive.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MatrixSearch.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MatrixSearch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MatrixSearchTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MatrixSearchTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MaxDifferenceKPairs.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MaxDifferenceKPairs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MaxDifferenceUnlimitedPairs.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MaxDifferenceUnlimitedPairs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MaxSubmatrixRectangle.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MaxSubmatrixRectangle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MaxSubmatrixRectangleBruteForce.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MaxSubmatrixRectangleBruteForce.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MaxSubmatrixRectangleImproved.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MaxSubmatrixRectangleImproved.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MaxSubmatrixSquare.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MaxSubmatrixSquare.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MaxSumSubarray.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MaxSumSubarray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MaximumSubarrayInCircularArray.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MaximumSubarrayInCircularArray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MaximumSubarrayInCircularArrayConstantSpace.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MaximumSubarrayInCircularArrayConstantSpace.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MazeGame.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MazeGame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MazeGameMain.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MazeGameMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MedianSortedCircularLinkedList.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MedianSortedCircularLinkedList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MergeContacts.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MergeContacts.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MergeSortedArrays.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MergeSortedArrays.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MergeSortedLists.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MergeSortedLists.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MergeTwoBSTs.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MergeTwoBSTs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MergeTwoSortedArraysInPlace.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MergeTwoSortedArraysInPlace.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MinimumDistance3SortedArrays.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MinimumDistance3SortedArrays.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MinimumSubarrayDifference.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MinimumSubarrayDifference.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MinimumWaitingTime.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MinimumWaitingTime.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MissingElement.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MissingElement.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MultibetCardColorGame.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MultibetCardColorGame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/MultiplyShiftAdd.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/MultiplyShiftAdd.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/backtracking/NQueens.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/backtracking/NQueens.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/NearestRepetition.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/NearestRepetition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/NearestRestaurant.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/NearestRestaurant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/NextPermutation.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/NextPermutation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/NonUniformRandomNumberGeneration.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/NonUniformRandomNumberGeneration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/NonconstructibleChange.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/NonconstructibleChange.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/NormalizedPathnames.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/NormalizedPathnames.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/NormalizedPathnamesTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/NormalizedPathnamesTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/NumberSteps.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/NumberSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/NumberWays.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/NumberWays.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/NumberWaysObstacles.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/NumberWaysObstacles.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/NumberWaysTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/NumberWaysTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/OddEven.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/OddEven.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/OfflineMinimum.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/OfflineMinimum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/OfflineSampling.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/OfflineSampling.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/OnlineMedian.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/OnlineMedian.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/OnlineSampling.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/OnlineSampling.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/Operators.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/Operators.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/OrderStatistic.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/OrderStatistic.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/OrdinaryMazeGame.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/OrdinaryMazeGame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/OverlappingLists.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/OverlappingLists.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/OverlappingListsNoCycle.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/OverlappingListsNoCycle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/PaintingIterative.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/PaintingIterative.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/PaintingRecursive.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/PaintingRecursive.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/PalindromeLinkedList.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/PalindromeLinkedList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/PalindromeNumber.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/PalindromeNumber.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/PalindromeNumberTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/PalindromeNumberTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/PalindromePartitioning.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/PalindromePartitioning.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/PalindromePartitioningMinCuts.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/PalindromePartitioningMinCuts.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/Parity.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/Parity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/Parity1.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/Parity1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/Parity2.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/Parity2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/Parity3.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/Parity3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/Parity4.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/Parity4.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/PartitionArray.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/PartitionArray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/PascalTriangle1.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/PascalTriangle1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/PathSumBinaryTree.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/PathSumBinaryTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/utils/PerformanceMeasure.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/utils/PerformanceMeasure.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/backtracking/PermutationArray.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/backtracking/PermutationArray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/backtracking/PermutationArray1.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/backtracking/PermutationArray1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/backtracking/PermutationArray2.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/backtracking/PermutationArray2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/backtracking/Permutations.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/backtracking/Permutations.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/backtracking/PermutationsAlternative.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/backtracking/PermutationsAlternative.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/PhoneMnemonic.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/PhoneMnemonic.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/PickingUpCoins.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/PickingUpCoins.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/PickingUpCoinsDontLose.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/PickingUpCoinsDontLose.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/PlanningFishing.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/PlanningFishing.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/PlusOne.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/PlusOne.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/PointsCoveringIntervals.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/PointsCoveringIntervals.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/PointsCoveringIntervalsAlternative.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/PointsCoveringIntervalsAlternative.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/PointsCoveringIntervalsSorting.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/PointsCoveringIntervalsSorting.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/PopulatingNextRightPointers.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/PopulatingNextRightPointers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/PostingListNode.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/PostingListNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/backtracking/PowerSet.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/backtracking/PowerSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/backtracking/PowerSetAlternative.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/backtracking/PowerSetAlternative.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/PowerXY.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/PowerXY.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/PrettyPrinting.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/PrettyPrinting.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/PrimeSieve.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/PrimeSieve.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/PrimeSieveBasic.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/PrimeSieveBasic.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/PrintLinkedListReverseOrder.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/PrintLinkedListReverseOrder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ProducerConsumer.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ProducerConsumer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/QueueFromStacks.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/QueueFromStacks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/QueueUsingTwoIntegers.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/QueueUsingTwoIntegers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/QueueWithMax.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/QueueWithMax.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/QueueWithMaxAlternative.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/QueueWithMaxAlternative.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/QueueWithMaxIntro.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/QueueWithMaxIntro.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/RPN.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/RPN.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/RPNTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/RPNTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/RW.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/RW.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/RabinKarp.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/RabinKarp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/RangeLookupBST.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/RangeLookupBST.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/Rearrange.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/Rearrange.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/RebuildBSTPostorder.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/RebuildBSTPostorder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/RebuildBSTPreorder.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/RebuildBSTPreorder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/RebuildBSTPreorderBetter.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/RebuildBSTPreorderBetter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ReconstructAlmostBst.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ReconstructAlmostBst.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ReconstructBinaryTreePostInorders.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ReconstructBinaryTreePostInorders.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ReconstructBinaryTreePreInorders.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ReconstructBinaryTreePreInorders.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ReconstructPreorderWithNull.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ReconstructPreorderWithNull.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/RegularExpression.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/RegularExpression.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/RemoveDuplicatesFromSortedArray.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/RemoveDuplicatesFromSortedArray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/RemoveDuplicatesSortedList.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/RemoveDuplicatesSortedList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/RemoveElement.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/RemoveElement.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/RemoveKthLastList.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/RemoveKthLastList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/RenderingCalendar.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/RenderingCalendar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ReplaceAndRemove.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ReplaceAndRemove.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ReservoirSampling.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ReservoirSampling.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ReverseBits.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ReverseBits.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ReverseInteger.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ReverseInteger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ReverseLinkedListFromSToF.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ReverseLinkedListFromSToF.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ReverseLinkedListIterative.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ReverseLinkedListIterative.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ReverseLinkedListRecursive.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ReverseLinkedListRecursive.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ReverseListInKGroup.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ReverseListInKGroup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ReverseWords.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ReverseWords.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/RoadNetwork.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/RoadNetwork.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/RomanToInteger.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/RomanToInteger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/RookAttack.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/RookAttack.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/RotateArray.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/RotateArray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/RotateArrayPermutation.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/RotateArrayPermutation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/RotateArrayTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/RotateArrayTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/RunLengthCompression.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/RunLengthCompression.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/S1.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/S1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/S1Alternative.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/S1Alternative.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/S2.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/S2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/S2Alternative.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/S2Alternative.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ScoreCombination.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ScoreCombination.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ScorePermutation.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ScorePermutation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SearchAPairSortedArray.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SearchAPairSortedArray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SearchBST.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SearchBST.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SearchBSTFirstLargerK.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SearchBSTFirstLargerK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SearchBSTForFirstOccurrenceIterative.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SearchBSTForFirstOccurrenceIterative.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SearchBSTForFirstOccurrenceRecursive.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SearchBSTForFirstOccurrenceRecursive.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SearchFrequentItems.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SearchFrequentItems.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SearchList.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SearchList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SearchMajority.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SearchMajority.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SearchMaze.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SearchMaze.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SearchMinFirstBST.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SearchMinFirstBST.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SearchPostingsListIterative.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SearchPostingsListIterative.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SearchPostingsListRecursive.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SearchPostingsListRecursive.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/Semaphore.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/Semaphore.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ShortestPathFewestEdges.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ShortestPathFewestEdges.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ShortestUniquePrefix.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ShortestUniquePrefix.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SimpleWebServer.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SimpleWebServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SlidingWindow.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SlidingWindow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SmallestSubarrayCoveringSet.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SmallestSubarrayCoveringSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SmallestSubarrayCoveringSetStream.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SmallestSubarrayCoveringSetStream.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SnakeString.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SnakeString.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SnakeStringTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SnakeStringTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SortKIncreasingDecreasingArray.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SortKIncreasingDecreasingArray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SortList.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SortList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SortedListToBST.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SortedListToBST.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SpiralMatrix.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SpiralMatrix.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SpiralMatrixClockwise.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SpiralMatrixClockwise.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SpreadsheetEncoding.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SpreadsheetEncoding.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SpreadsheetEncodingTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SpreadsheetEncodingTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SquareRoot.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SquareRoot.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SquareRootInt.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SquareRootInt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SquareRootIntTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SquareRootIntTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/StableAssignment.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/StableAssignment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/StackQueueUsingHeap.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/StackQueueUsingHeap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/StackSorting.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/StackSorting.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/StackWithMax.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/StackWithMax.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/StackWithMaxImproved.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/StackWithMaxImproved.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/StaticInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/StaticInitializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/utils/StopWatch.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/utils/StopWatch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/StringConcatenation.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/StringConcatenation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/StringConcatenationStringBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/StringConcatenationStringBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/StringInMatrix.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/StringInMatrix.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/StudentSearch.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/StudentSearch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/StudentSort.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/StudentSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SubseqCover.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SubseqCover.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SubstringWithConcatenationOfAllWords.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SubstringWithConcatenationOfAllWords.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/Successor.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/Successor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SudokuCheck.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SudokuCheck.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SudokuSolve.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SudokuSolve.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SudokuSolveTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SudokuSolveTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SumRootToLeafBinaryTree.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SumRootToLeafBinaryTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SurroundedRegions.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SurroundedRegions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SwapBits.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SwapBits.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/SymmetricBinaryTree.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/SymmetricBinaryTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/Tail.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/Tail.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/TailCoin.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/TailCoin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/TaskAssignment.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/TaskAssignment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/TaskExecutionWebServer.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/TaskExecutionWebServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/TeamPhoto1.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/TeamPhoto1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/TeamPhoto2.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/TeamPhoto2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/TeamReachability.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/TeamReachability.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/utils/TestType.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/utils/TestType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/TheoryOfEquality.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/TheoryOfEquality.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ThreadPerTaskWebserver.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ThreadPerTaskWebserver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ThreeJugs.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ThreeJugs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ThreeSum.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ThreeSum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/TiesElection.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/TiesElection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/TopK.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/TopK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/TournamentTree.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/TournamentTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/TowerHanoi.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/TowerHanoi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/TransformStringToOther.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/TransformStringToOther.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/TransitiveClosure.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/TransitiveClosure.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/TrappingRainWater.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/TrappingRainWater.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/TreeDiameter.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/TreeDiameter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/TreeTraversal.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/TreeTraversal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/utils/TreeUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/utils/TreeUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/Triangle.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/Triangle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/TwoExists.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/TwoExists.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/TwoForAll.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/TwoForAll.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/TwoSum.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/TwoSum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/TwoThreadIncrement.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/TwoThreadIncrement.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/UniformRandomNumberGeneration.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/UniformRandomNumberGeneration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/UnionIntervals.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/UnionIntervals.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/UniqueBinaryTreesAll.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/UniqueBinaryTreesAll.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/UpdateBST.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/UpdateBST.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/utils/Utils.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/utils/Utils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ValidIPAddress.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ValidIPAddress.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ValidIPAddressRecursive.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ValidIPAddressRecursive.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ValidPalindrome.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ValidPalindrome.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ValidParentheses.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ValidParentheses.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ViewFromAbove.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ViewFromAbove.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ViewSunset.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ViewSunset.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/WiringCircuitBoard.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/WiringCircuitBoard.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/WordBreaking.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/WordBreaking.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ZeroOneKnapsack.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ZeroOneKnapsack.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ZeroSumSubset.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ZeroSumSubset.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epi/ZippingList.java" afterPath="$PROJECT_DIR$/src/main/java/com/epi/ZippingList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
     </list>
     <ignored path="epicode.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,105 +445,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NQueens.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/NQueens.java">
+      <file leaf-file-name="KnightTour.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epi/backtracking/KnightTour.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PermutationArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PermutationArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonPairWriter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonPairWriter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonTestStream.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
-                <element signature="e#651#652#0" expanded="true" />
-                <element signature="e#907#908#0" expanded="true" />
-                <element signature="e#940#941#0" expanded="true" />
-                <element signature="e#997#998#0" expanded="true" />
-                <element signature="e#1066#1067#0" expanded="true" />
-                <element signature="e#2188#2189#0" expanded="true" />
-                <element signature="e#2243#2244#0" expanded="true" />
-                <element signature="e#2312#2313#0" expanded="true" />
-                <element signature="e#2377#2378#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonTestOptions.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestOptions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BalancedBinaryTreeTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/BalancedBinaryTreeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3743#3744#0" expanded="true" />
-                <element signature="e#3799#3800#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PowerSet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PowerSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Combinations.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/Combinations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.9556213">
+              <caret line="110" column="1" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -159,6 +484,7 @@
         <option value="$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestStream.java" />
         <option value="$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestOptions.java" />
         <option value="$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonPairWriter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epi/backtracking/KnightTour.java" />
       </list>
     </option>
   </component>
@@ -173,7 +499,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="68" />
+    <option name="x" value="32" />
     <option name="y" value="23" />
     <option name="width" value="1372" />
     <option name="height" value="773" />
@@ -201,9 +527,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -211,9 +534,15 @@
               <option name="myItemId" value="epicode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+              <option name="myItemId" value="epicode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="epicode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -221,11 +550,27 @@
               <option name="myItemId" value="epicode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="epicode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="epicode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="epicode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
@@ -236,6 +581,14 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="epicode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="epicode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
@@ -256,6 +609,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="epicode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -268,12 +629,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
+              <option name="myItemId" value="backtracking" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -551,13 +915,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="68" y="23" width="1372" height="773" extended-state="0" />
-    <editor active="true" />
+    <frame x="32" y="23" width="1372" height="773" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -565,18 +928,19 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24708454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24708454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -592,462 +956,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonUniversalObjectWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/BalancedBinaryTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3743#3744#0" expanded="true" />
-            <element signature="e#3799#3800#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PowerSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/Combinations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/NQueens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PermutationArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonPairWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-            <element signature="e#1066#1067#0" expanded="true" />
-            <element signature="e#2188#2189#0" expanded="true" />
-            <element signature="e#2243#2244#0" expanded="true" />
-            <element signature="e#2312#2313#0" expanded="true" />
-            <element signature="e#2377#2378#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonUniversalObjectWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/BalancedBinaryTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3743#3744#0" expanded="true" />
-            <element signature="e#3799#3800#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PowerSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/Combinations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/NQueens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PermutationArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonPairWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-            <element signature="e#1066#1067#0" expanded="true" />
-            <element signature="e#2188#2189#0" expanded="true" />
-            <element signature="e#2243#2244#0" expanded="true" />
-            <element signature="e#2312#2313#0" expanded="true" />
-            <element signature="e#2377#2378#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonUniversalObjectWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/BalancedBinaryTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3743#3744#0" expanded="true" />
-            <element signature="e#3799#3800#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PowerSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/Combinations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/NQueens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/MazeGameMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/MazeGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PermutationArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PowerSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/Combinations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/ValidParentheses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/.clang-format">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/test/test/java/com/epi/TestAll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42159763">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/ContainerWithMostWater.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epi/backtracking/KnightTour.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9556213">
-          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/format.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/LRUCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5769231">
-          <caret line="29" column="71" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/AsyncThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44526628">
-          <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/GCD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.088757396">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/DutchNationalFlag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="45" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/MazeGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PowerSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="110" column="1" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/GassingUpTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2027027">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/GenerateParentheses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13513513">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/ValidParentheses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37869823">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/Combinations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/MazeGameMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.044378698">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/NQueens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/backtracking/PermutationArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/BalancedBinaryTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3743#3744#0" expanded="true" />
-            <element signature="e#3799#3800#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-            <element signature="e#1066#1067#0" expanded="true" />
-            <element signature="e#2188#2189#0" expanded="true" />
-            <element signature="e#2243#2244#0" expanded="true" />
-            <element signature="e#2312#2313#0" expanded="true" />
-            <element signature="e#2377#2378#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonPairWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonUniversalObjectWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5630631">
-          <caret line="109" column="79" selection-start-line="109" selection-start-column="79" selection-end-line="109" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/epi/utils/JsonTestOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
