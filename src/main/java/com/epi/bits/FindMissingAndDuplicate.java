@@ -1,4 +1,4 @@
-package com.epi;
+package com.epi.bits;
 
 import java.util.ArrayList;
 import java.util.List;
