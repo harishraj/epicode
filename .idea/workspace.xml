@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11b27b9d-229f-4085-857b-af376b9be622" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/additional/BinaryTree.java" afterPath="$PROJECT_DIR$/src/main/java/com/additional/BinaryTree.java" />
-    </list>
+    <list default="true" id="11b27b9d-229f-4085-857b-af376b9be622" name="Default" comment="" />
     <ignored path="epicode.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
