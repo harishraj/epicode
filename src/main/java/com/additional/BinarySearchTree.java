@@ -1,6 +1,36 @@
 package com.additional;
 
+import java.util.Deque;
+import java.util.LinkedList;
+
 public class BinarySearchTree {
+
+    class BSTIterator {
+        private Deque<TreeNode> stack = new LinkedList<TreeNode>();
+
+        public BSTIterator(TreeNode root) {
+            pushAll(root);
+        }
+
+        public boolean hasNext() {
+            return !stack.isEmpty();
+        }
+
+        public int next() {
+            TreeNode tmpNode = stack.pop();
+            pushAll(tmpNode.right);
+            return tmpNode.val;
+        }
+
+        private void pushAll(TreeNode node) {
+            //for (; node != null; stack.push(node), node = node.left) ;
+            while (node != null) {
+                stack.push(node);
+                node = node.left;
+            }
+        }
+
+    }
 
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
 

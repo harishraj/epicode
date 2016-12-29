@@ -1,5 +1,7 @@
 package com.additional;
 
+import apple.laf.JRSUIUtils;
+
 import java.util.*;
 
 class TreeNode {
@@ -29,35 +31,6 @@ class TreeNode {
         }
     }
 
-    class BSTIterator {
-        private Deque<TreeNode> stack = new LinkedList<TreeNode>();
-
-        public BSTIterator(TreeNode root) {
-            pushAll(root);
-        }
-
-        /**
-         * @return whether we have a next smallest number
-         */
-        public boolean hasNext() {
-            return !stack.isEmpty();
-        }
-
-        /**
-         * @return the next smallest number
-         */
-        public int next() {
-            TreeNode tmpNode = stack.pop();
-            pushAll(tmpNode.right);
-            return tmpNode.val;
-        }
-
-        private void pushAll(TreeNode node) {
-            for (; node != null; stack.push(node), node = node.left) ;
-        }
-
-    }
-
     public class BinaryTree {
 
         //************************************************************************************************************
@@ -70,6 +43,22 @@ class TreeNode {
                 return 0;
             else
                 return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
+        }
+
+
+        //************************************************************************************************************
+        // min depth of the tree
+        //************************************************************************************************************
+
+        public int minDepth(TreeNode root) {
+
+            if (root == null)
+                return 0;
+
+            if(root.left == null && root.right == null)
+                return 1;
+            else
+                return 1 + Math.min(minDepth(root.left), minDepth(root.right));
         }
 
         //************************************************************************************************************
@@ -118,7 +107,7 @@ class TreeNode {
         }
 
         //************************************************************************************************************
-        // Recursive
+        // invert tree - Recursive
         //************************************************************************************************************
 
         public TreeNode invertTreeRecursive(TreeNode root) {
@@ -127,7 +116,9 @@ class TreeNode {
                 return null;
             }
 
-            final TreeNode left = root.left, right = root.right;
+            TreeNode left = root.left;
+            TreeNode right = root.right;
+
             root.left = invertTreeRecursive(right);
             root.right = invertTreeRecursive(left);
             return root;
@@ -148,8 +139,8 @@ class TreeNode {
 
             while (!stack.isEmpty()) {
 
-                final TreeNode node = stack.pop();
-                final TreeNode left = node.left;
+                TreeNode node = stack.pop();
+                TreeNode left = node.left;
                 node.left = node.right;
                 node.right = left;
 
@@ -178,8 +169,9 @@ class TreeNode {
 
             while (!queue.isEmpty()) {
 
-                final TreeNode node = queue.poll();
-                final TreeNode left = node.left;
+                TreeNode node = queue.poll();
+
+                TreeNode left = node.left;
                 node.left = node.right;
                 node.right = left;
 
@@ -238,6 +230,7 @@ class TreeNode {
         //************************************************************************************************************
 
         public List<List<Integer>> levelOrder(TreeNode root) {
+
             Deque<TreeNode> queue = new LinkedList<TreeNode>();
             List<List<Integer>> wrapList = new LinkedList<List<Integer>>();
 
@@ -521,9 +514,146 @@ class TreeNode {
             return newRoot;
         }
 
+        //************************************************************************************************************
+        // is Binary Search Tree
+        //************************************************************************************************************
+
+        public boolean isBST2(TreeNode root) {
+            return( isBST2(root, Integer.MIN_VALUE, Integer.MAX_VALUE) );
+        }
+
+        private boolean isBST2(TreeNode node, int min, int max) {
+            if (node==null) {
+                return(true);
+            }
+
+            else {
+                // left should be in range  min...node.data
+                boolean leftOk = isBST2(node.left, min, node.val);
+
+                // if the left is not ok, bail out
+                if (!leftOk) return(false);
+
+                // right should be in range node.data+1..max
+                boolean rightOk = isBST2(node.right, node.val+1, max);
+
+                return(rightOk);
+            }
+        }
 
         //************************************************************************************************************
-        // Main method
+        // count structurally unique binary search trees possible
+        //  Strategy: consider that each value could be the root.
+        //  Recursively find the size of the left and right subtrees.
+        //************************************************************************************************************
+
+        public static int countTrees(int numKeys) {
+
+            if (numKeys <=1) {
+                return(1);
+            }
+
+            else {
+                // there will be one value at the root, with whatever remains
+                // on the left and right each forming their own subtrees.
+                // Iterate through all the values that could be the root...
+                int sum = 0;
+                int left, right, root;
+
+                for (root=1; root<=numKeys; root++) {
+                    left = countTrees(root-1);
+                    right = countTrees(numKeys - root);
+
+                    // number of possible trees with this root == left*right
+                    sum += left*right;
+                }
+
+                return(sum);
+            }
+        }
+
+        //************************************************************************************************************
+        // Mirror trees
+        //************************************************************************************************************
+
+        private void mirror(TreeNode node) {
+            if (node != null) {
+                // do the sub-trees
+                mirror(node.left);
+                mirror(node.right);
+
+                // swap the left/right pointers
+                TreeNode temp = node.left;
+                node.left = node.right;
+                node.right = temp;
+            }
+        }
+
+        //************************************************************************************************************
+        // Given a binary tree, prints out all of its root-to-leaf
+        // paths, one per line. Uses a recursive helper to do the work.
+        //************************************************************************************************************
+
+        public void printPaths(TreeNode root) {
+            int[] path = new int[1000];
+            printPaths(root, path, 0);
+        }
+        /**
+         Recursive printPaths helper -- given a node, and an array containing
+         the path from the root node up to but not including this node,
+         prints out all the root-leaf paths.
+         */
+        private void printPaths(TreeNode node, int[] path, int pathLen) {
+            if (node==null) return;
+
+            // append this node to the path array
+            path[pathLen] = node.val;
+            pathLen++;
+
+            // it's a leaf, so print the path that led to here
+            if (node.left==null && node.right==null) {
+                printArray(path, pathLen);
+            }
+            else {
+                // otherwise try both subtrees
+                printPaths(node.left, path, pathLen);
+                printPaths(node.right, path, pathLen);
+            }
+        }
+
+        /**
+         Utility that prints ints from an array on one line.
+         */
+        private void printArray(int[] ints, int len) {
+            int i;
+            for (i=0; i<len; i++) {
+                System.out.print(ints[i] + " ");
+            }
+            System.out.println();
+        }
+
+        //************************************************************************************************************
+        // double Tree
+        //************************************************************************************************************
+
+        private void doubleTree(TreeNode node) {
+            TreeNode oldLeft;
+
+            if (node == null) return;
+
+            // do the subtrees
+            doubleTree(node.left);
+            doubleTree(node.right);
+
+            // duplicate this node to its left
+            oldLeft = node.left;
+            node.left = new TreeNode(node.val);
+            node.left.left = oldLeft;
+        }
+
+
+        //************************************************************************************************************
+        // main method
         //************************************************************************************************************
 
 
@@ -545,8 +675,11 @@ class TreeNode {
             root.right = right1;
 
             BinaryTree binaryTree = new BinaryTree();
-            int res = binaryTree.maxDepth(root);
-            System.out.println(res);
+            int minRes = binaryTree.minDepth(root);
+            int maxRes = binaryTree.maxDepth(root);
+
+            System.out.println(minRes);
+            System.out.println(maxRes);
 
         }
     }
