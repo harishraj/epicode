@@ -1,5 +1,6 @@
 package com.additional;
 
+import java.text.DecimalFormat;
 import java.util.*;
 
 public class Backtrack {
@@ -38,7 +39,6 @@ public class Backtrack {
 
         }
     }
-
 
     //*****************************************************************************************
     // Generate all subsets of size k
@@ -90,11 +90,12 @@ public class Backtrack {
 
         for (int i = start; i < nums.length; i++) {
 
-            if (i > start && nums[i] == nums[i - 1]) continue; // skip duplicates
-            tempList.add(nums[i]);
-            subsetsWithDupBacktrack(list, tempList, nums, i + 1);
-            tempList.remove(tempList.size() - 1);
-
+            //    if (i > start && nums[i] == nums[i - 1]) continue; // skip duplicates
+            if (i > start && nums[i] != nums[i - 1]) {
+                tempList.add(nums[i]);
+                subsetsWithDupBacktrack(list, tempList, nums, i + 1);
+                tempList.remove(tempList.size() - 1);
+            }
         }
 
     }
@@ -124,7 +125,6 @@ public class Backtrack {
                 tempList.remove(tempList.size() - 1);
             }
         }
-
     }
 
     //*****************************************************************************************
@@ -160,7 +160,7 @@ public class Backtrack {
     // Permutations II (contains duplicates) : https://leetcode.com/problems/permutations-ii/
     //*****************************************************************************************
 
-    public List<List<Integer>> permuteUnique(int[] array) {
+    public List<List<Integer>> permutateUnique(int[] array) {
         List<List<Integer>> list = new ArrayList<>();
         Arrays.sort(array);
         permutateUniqueBacktrack(list, new ArrayList<>(), array, new boolean[array.length]);
@@ -295,21 +295,21 @@ public class Backtrack {
     public List<String> generateParentheses(int n) {
 
         List<String> result = new ArrayList<>();
-        generateParen(n, n, result, "", n);
+        generateParen(n, n, result, "");
         return result;
     }
 
-    public void generateParen(int left, int right, List<String> result, String temp, int n) {
+    public void generateParen(int left, int right, List<String> result, String temp) {
 
         if (left == 0 && right == 0)
             result.add(temp);
 
         if (left > 0) {
-            generateParen(left - 1, right, result, temp + "(", n);
+            generateParen(left - 1, right, result, temp + "(");
         }
 
         if (left < right) {
-            generateParen(left, right - 1, result, temp + ")", n);
+            generateParen(left, right - 1, result, temp + ")");
         }
 
     }
@@ -359,6 +359,44 @@ public class Backtrack {
         return false;
     }
 
+    //****************************************************************************************************************
+    // n Queens
+    //****************************************************************************************************************
+
+    public static List<List<Integer>> nQueens(int n) {
+        List<List<Integer>> result = new ArrayList<>();
+        solveNQueens(n, 0, new ArrayList<Integer>(), result);
+        return result;
+    }
+
+    private static void solveNQueens(int n, int row, List<Integer> colPlacement,
+                                     List<List<Integer>> result) {
+        if (row == n) {
+            // All queens are legally placed.
+            result.add(new ArrayList<>(colPlacement));
+        } else {
+            for (int col = 0; col < n; ++col) {
+                colPlacement.add(col);
+                if (isValid(colPlacement)) {
+                    solveNQueens(n, row + 1, colPlacement, result);
+                }
+                colPlacement.remove(colPlacement.size() - 1);
+            }
+        }
+    }
+
+    // Test if a newly placed queen will conflict any earlier queens placed before.
+    private static boolean isValid(List<Integer> colPlacement) {
+        int rowID = colPlacement.size() - 1;
+        for (int i = 0; i < rowID; ++i) {
+            int diff = Math.abs(colPlacement.get(i) - colPlacement.get(rowID));
+            if (diff == 0 || diff == rowID - i) {
+                return false;
+            }
+        }
+        return true;
+    }
+
 
     //***********************************************************************************************
     //***********************************************************************************************
@@ -371,6 +409,7 @@ public class Backtrack {
 
         Backtrack backtrackTemplate = new Backtrack();
 
+
         char[] charA = {'a', 'c', 'e', 'd'};
         char[] charB = {'b', 'a', 'd', 'w'};
         char[] charC = {'e', 's', 'a', 'e'};
@@ -380,7 +419,7 @@ public class Backtrack {
         boolean resu = backtrackTemplate.wordExists(charAB, "edas");
         System.out.println(resu);
 
-/*
+    /*
         List<String> result = backtrackTemplate.generateParentheses(3);
         Iterator iter = result.iterator();
 
@@ -397,17 +436,57 @@ public class Backtrack {
         }
 
 
+
         List<List<Integer>> intList = new ArrayList<>();
 
-        int[] intArray = {2,6,3,5,9};
+        int[] intArray = {2,6,5};
 
-        intList = backtrackTemplate.permutate(intArray);
+        int[] intArray1 = {2,5,5};
+
+        intList = backtrackTemplate.subsetsOfSizeK(intArray, 3);
+
+        System.out.println("Combinations / Subsets of the set {2,6,5} of Size 3 ");
+
         Iterator<List<Integer>> intIter = intList.iterator();
 
         while (intIter.hasNext()) {
             List<Integer> innerList = intIter.next();
             System.out.println(Arrays.toString(innerList.toArray()));
         }
-*/
+
+        intList = backtrackTemplate.subsetsWithDup(intArray1);
+
+        System.out.println(" Subsets with duplicates of the set {2,5,5} ");
+
+        intIter = intList.iterator();
+
+        while (intIter.hasNext()) {
+            List<Integer> innerList = intIter.next();
+            System.out.println(Arrays.toString(innerList.toArray()));
+        }
+
+        System.out.println("Permutations of the set {2,6,5}");
+
+        intList = backtrackTemplate.permutate(intArray);
+
+        intIter = intList.iterator();
+
+        while (intIter.hasNext()) {
+            List<Integer> innerList = intIter.next();
+            System.out.println(Arrays.toString(innerList.toArray()));
+        }
+
+        System.out.println("Permutations of the set {2,5,5}");
+
+        intList = backtrackTemplate.permutateUnique(intArray1);
+
+        intIter = intList.iterator();
+
+        while (intIter.hasNext()) {
+            List<Integer> innerList = intIter.next();
+            System.out.println(Arrays.toString(innerList.toArray()));
+        }
+    */
+
     }
 }

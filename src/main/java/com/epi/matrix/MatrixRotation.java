@@ -1,6 +1,6 @@
 // Copyright (c) 2015 Elements of Programming Interviews. All rights reserved.
 
-package com.epi;
+package com.epi.matrix;
 
 import java.util.Random;
 

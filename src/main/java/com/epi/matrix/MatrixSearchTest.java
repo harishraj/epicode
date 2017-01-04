@@ -1,4 +1,4 @@
-package com.epi;
+package com.epi.matrix;
 // @pg_import
 
 import com.epi.utils.AbstractTestOptions;
@@ -8,8 +8,6 @@ import com.epi.utils.TestType;
 
 import java.util.Arrays;
 import java.util.List;
-
-import static com.epi.MatrixSearch.matrixSearch;
 
 // @pg_end
 // @pg_ignore:1
@@ -29,7 +27,7 @@ public class MatrixSearchTest {
         stream.registerExpectedOutput(expected);
 
         try {
-            boolean result = matrixSearch(input, x);
+            boolean result = MatrixSearch.matrixSearch(input, x);
             stream.registerUserOutput(result, expected == result);
         } catch (NullPointerException e) {
             stream.registerNullPointerException();

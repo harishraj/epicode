@@ -1,4 +1,4 @@
-package com.epi;
+package com.epi.matrix;
 
 import java.util.ArrayList;
 import java.util.Arrays;

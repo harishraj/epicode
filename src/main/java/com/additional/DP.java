@@ -26,7 +26,7 @@ class DP {
     }
 
     public static void main(String[] args) {
-        List<String> list = letterCombinations("9259845371");
+        List<String> list = letterCombinations("5109845308");
         Iterator<String> iter = list.iterator();
         while(iter.hasNext())
             System.out.println(iter.next());
