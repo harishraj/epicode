@@ -1,4 +1,4 @@
-package com.additional;
+package com.additional.ds;
 
 import java.util.Stack;
 
@@ -9,6 +9,31 @@ public class MaxStack {
 
     public MaxStack() {
         stack = new Stack<>();
+    }
+
+    public static void main(String args[]) {
+
+        MaxStack maxStack = new MaxStack();
+        maxStack.push(5);
+        maxStack.push(-1);
+        maxStack.push(3);
+        maxStack.push(2);
+        maxStack.push(-2);
+
+        maxStack.getMax();
+        maxStack.pop();
+
+        maxStack.getMax();
+        maxStack.pop();
+
+        maxStack.getMax();
+        maxStack.pop();
+
+        maxStack.getMax();
+        maxStack.pop();
+
+        maxStack.getMax();
+        maxStack.pop();
     }
 
     public void push(int x) {
@@ -41,31 +66,6 @@ public class MaxStack {
 
     public int getMax() {
         return (int) max;
-    }
-
-    public static void main(String args[]) {
-
-        MaxStack maxStack = new MaxStack();
-        maxStack.push(5);
-        maxStack.push(-1);
-        maxStack.push(3);
-        maxStack.push(2);
-        maxStack.push(-2);
-
-        maxStack.getMax();
-        maxStack.pop();
-
-        maxStack.getMax();
-        maxStack.pop();
-
-        maxStack.getMax();
-        maxStack.pop();
-
-        maxStack.getMax();
-        maxStack.pop();
-
-        maxStack.getMax();
-        maxStack.pop();
     }
 }
 

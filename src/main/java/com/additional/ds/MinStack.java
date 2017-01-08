@@ -1,4 +1,4 @@
-package com.additional;
+package com.additional.ds;
 
 import java.util.Stack;
 
@@ -8,6 +8,35 @@ public class MinStack {
 
     public MinStack() {
         stack = new Stack<>();
+    }
+
+    public static void main(String args[]) {
+
+        MinStack minStack = new MinStack();
+        minStack.push(3);
+        minStack.push(5);
+        minStack.push(2);
+        minStack.push(4);
+        minStack.push(-7);
+        minStack.push(6);
+
+        minStack.getMin();
+        minStack.pop();
+
+        minStack.getMin();
+        minStack.pop();
+
+        minStack.getMin();
+        minStack.pop();
+
+        minStack.getMin();
+        minStack.pop();
+
+        minStack.getMin();
+        minStack.pop();
+
+        minStack.getMin();
+        minStack.pop();
     }
 
     public void push(int x) {
@@ -40,35 +69,6 @@ public class MinStack {
 
     public int getMin() {
         return (int) min;
-    }
-
-    public static void main(String args[]) {
-
-        MinStack minStack = new MinStack();
-        minStack.push(3);
-        minStack.push(5);
-        minStack.push(2);
-        minStack.push(4);
-        minStack.push(-7);
-        minStack.push(6);
-
-        minStack.getMin();
-        minStack.pop();
-
-        minStack.getMin();
-        minStack.pop();
-
-        minStack.getMin();
-        minStack.pop();
-
-        minStack.getMin();
-        minStack.pop();
-
-        minStack.getMin();
-        minStack.pop();
-
-        minStack.getMin();
-        minStack.pop();
     }
 }
 

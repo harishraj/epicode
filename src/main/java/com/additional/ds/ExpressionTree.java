@@ -1,4 +1,4 @@
-package com.additional;
+package com.additional.ds;
 
 import java.util.Deque;
 import java.util.LinkedList;
@@ -18,6 +18,17 @@ class ExpressionTree {
 
     // A utility function to check if 'c'
     // is an operator
+
+    public static void main(String args[]) {
+
+        ExpressionTree et = new ExpressionTree();
+        String postfix = "ab+ef*g*-";
+        char[] charArray = postfix.toCharArray();
+        Node root = et.constructTree(charArray);
+        System.out.println("infix expression is");
+        et.inorder(root);
+
+    }
 
     boolean isOperator(char c) {
         if (c == '+' || c == '-' || c == '*' || c == '/' || c == '^') {
@@ -72,17 +83,6 @@ class ExpressionTree {
         st.pop();
 
         return t;
-    }
-
-    public static void main(String args[]) {
-
-        ExpressionTree et = new ExpressionTree();
-        String postfix = "ab+ef*g*-";
-        char[] charArray = postfix.toCharArray();
-        Node root = et.constructTree(charArray);
-        System.out.println("infix expression is");
-        et.inorder(root);
-
     }
 }
 
