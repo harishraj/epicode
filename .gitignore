@@ -19,3 +19,6 @@ hs_err_pid*
 target/
 cpp/.idea
 java/.idea
+/.idea/
+/epi.iml
+/epicode.iml

@@ -4,6 +4,16 @@ import java.util.Arrays;
 
 class QuickSort {
 
+    public static void main(String[] args) {
+
+        int[] test = {15, 5, 6, 2, 4, 8, 5, 5, 1, 4, 6, 6, 9, 7};
+
+        QuickSort quickSort = new QuickSort();
+        quickSort.sort(test);
+        System.out.println(Arrays.asList(test));
+
+    }
+
     public void sort(int[] values) {
 
         if (values == null || values.length == 0) {
@@ -13,7 +23,6 @@ class QuickSort {
         int number = values.length;
         quickSort(values, 0, number - 1);
     }
-
 
     public void swap(int[] array, int i, int j) {
         int tmp = array[i];
@@ -54,16 +63,6 @@ class QuickSort {
         if (index < right) { // Sort right half
             quickSort(arr, index, right);
         }
-    }
-
-    public static void main(String[] args) {
-
-        int[] test = {15, 5, 6, 2, 4, 8, 5, 5, 1, 4, 6, 6, 9, 7};
-
-        QuickSort quickSort = new QuickSort();
-        quickSort.sort(test);
-        System.out.println(Arrays.asList(test));
-
     }
 
 }

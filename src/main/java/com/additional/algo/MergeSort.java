@@ -4,6 +4,16 @@ import java.util.Arrays;
 
 class MergeSort {
 
+    public static void main(String[] args) {
+
+        int[] test1 = {15, 5, 6, 2, 4, 8, 5, 5, 1, 4, 6, 6, 9, 7};
+
+        MergeSort mergeSort = new MergeSort();
+        mergeSort.mergesort(test1);
+        System.out.println(Arrays.asList(test1));
+
+    }
+
     public void mergesort(int[] array) {
 
         int[] helper = new int[array.length];
@@ -50,16 +60,6 @@ class MergeSort {
         for (int i = 0; i <= remaining; i++) {
             array[current + i] = helper[helperLeft + i];
         }
-    }
-
-    public static void main(String[] args) {
-
-        int[] test1 = {15, 5, 6, 2, 4, 8, 5, 5, 1, 4, 6, 6, 9, 7};
-
-        MergeSort mergeSort = new MergeSort();
-        mergeSort.mergesort(test1);
-        System.out.println(Arrays.asList(test1));
-
     }
 
 

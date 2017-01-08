@@ -1,6 +1,5 @@
 package com.additional.ds;
 
-import java.util.Deque;
 import java.util.Stack;
 
 class LinkedListNode {
@@ -106,11 +105,11 @@ public class LinkedList {
         while (node != null) {
             LinkedListNode next = node.next;
             if (node.data < x) {
-				/* Insert node at head. */
+                /* Insert node at head. */
                 node.next = head;
                 head = node;
             } else {
-				/* Insert node at tail. */
+                /* Insert node at tail. */
                 tail.next = node;
                 tail = node;
             }
@@ -178,21 +177,6 @@ public class LinkedList {
         return p2;
     }
 
-
-    /***
-     *
-     *
-      */
-
-    public static class Result {
-        public LinkedListNode tail;
-        public int size;
-        public Result(LinkedListNode tail, int size) {
-            this.tail = tail;
-            this.size = size;
-        }
-    }
-
     public static Result getTailAndSize(LinkedListNode list) {
         if (list == null) return null;
 
@@ -204,7 +188,6 @@ public class LinkedList {
         }
         return new Result(current, size);
     }
-
 
     public static LinkedListNode getKthNode(LinkedListNode head, int k) {
         LinkedListNode current = head;
@@ -280,7 +263,6 @@ public class LinkedList {
         return fast;
     }
 
-
     /***
      *
      *
@@ -307,6 +289,21 @@ public class LinkedList {
 
         System.out.println(hA.printForward());
 
+    }
+
+    /***
+     *
+     *
+     */
+
+    public static class Result {
+        public LinkedListNode tail;
+        public int size;
+
+        public Result(LinkedListNode tail, int size) {
+            this.tail = tail;
+            this.size = size;
+        }
     }
 
 

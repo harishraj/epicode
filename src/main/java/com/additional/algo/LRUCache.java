@@ -3,10 +3,10 @@ package com.additional.algo;
 import java.util.HashMap;
 
 public class LRUCache {
+    public LinkedListNode listTail = null;
     private int maxCacheSize;
     private HashMap<Integer, LinkedListNode> map = new HashMap<Integer, LinkedListNode>();
     private LinkedListNode listHead = null;
-    public LinkedListNode listTail = null;
 
 
     public LRUCache(int maxSize) {
@@ -71,7 +71,7 @@ public class LRUCache {
     /* Put key, value pair in cache. Removes old value for key if
      * necessary. Inserts pair into linked list and hash table.*/
     public void setKeyValue(int key, String value) {
-		/* Remove if already there. */
+        /* Remove if already there. */
         removeKey(key);
 
 		/* If full, remove least recently used item from cache. */
@@ -91,10 +91,11 @@ public class LRUCache {
     }
 
     private class LinkedListNode {
-        private LinkedListNode next;
-        private LinkedListNode prev;
         public int key;
         public String value;
+        private LinkedListNode next;
+        private LinkedListNode prev;
+
         public LinkedListNode(int k, String v) {
             key = k;
             value = v;
