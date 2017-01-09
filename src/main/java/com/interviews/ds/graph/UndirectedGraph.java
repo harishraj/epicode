@@ -1,4 +1,4 @@
-package com.interviews.ds;
+package com.interviews.ds.graph;
 
 import java.util.ArrayList;
 import java.util.HashMap;

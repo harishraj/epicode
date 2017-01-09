@@ -3,9 +3,6 @@ package com.interviews.ds;
 import java.util.*;
 import java.util.LinkedList;
 
-/* One node of a binary tree. The data element stored is a single
- * character.
- */
 class TreeNode {
 
     public int val;
@@ -47,7 +44,6 @@ public class BinaryTree {
             return 0;
         return 1 + countNumberOfNodes(root.left) + countNumberOfNodes(root.right);
     }
-
 
     //************************************************************************************************************
     // max depth of the tree
@@ -145,6 +141,48 @@ public class BinaryTree {
         maxValue = Math.max(maxValue, left + right + node.val);
         return Math.max(left, right) + node.val;
 
+    }
+
+    //************************************************************************************************************
+    // is Binary Search Tree
+    //************************************************************************************************************
+
+    public boolean isBST(TreeNode root) {
+        return (isBST(root, Integer.MIN_VALUE, Integer.MAX_VALUE));
+    }
+
+    private boolean isBST(TreeNode node, int min, int max) {
+        if (node == null) {
+            return (true);
+        } else {
+            // left should be in range  min...node.data
+            boolean leftOk = isBST(node.left, min, node.val);
+
+            // if the left is not ok, bail out
+            if (!leftOk) return (false);
+
+            // right should be in range node.data+1..max
+            boolean rightOk = isBST(node.right, node.val + 1, max);
+
+            return (rightOk);
+        }
+    }
+
+    //************************************************************************************************************
+    // Mirror trees
+    //************************************************************************************************************
+
+    private void mirror(TreeNode node) {
+        if (node != null) {
+            // do the sub-trees
+            mirror(node.left);
+            mirror(node.right);
+
+            // swap the left/right pointers
+            TreeNode temp = node.left;
+            node.left = node.right;
+            node.right = temp;
+        }
     }
 
     //************************************************************************************************************
@@ -420,87 +458,6 @@ public class BinaryTree {
     }
 
     //************************************************************************************************************
-    // is Binary Search Tree
-    //************************************************************************************************************
-
-    public boolean isBST(TreeNode root) {
-        return (isBST(root, Integer.MIN_VALUE, Integer.MAX_VALUE));
-    }
-
-    private boolean isBST(TreeNode node, int min, int max) {
-        if (node == null) {
-            return (true);
-        } else {
-            // left should be in range  min...node.data
-            boolean leftOk = isBST(node.left, min, node.val);
-
-            // if the left is not ok, bail out
-            if (!leftOk) return (false);
-
-            // right should be in range node.data+1..max
-            boolean rightOk = isBST(node.right, node.val + 1, max);
-
-            return (rightOk);
-        }
-    }
-
-    //************************************************************************************************************
-    // Mirror trees
-    //************************************************************************************************************
-
-    private void mirror(TreeNode node) {
-        if (node != null) {
-            // do the sub-trees
-            mirror(node.left);
-            mirror(node.right);
-
-            // swap the left/right pointers
-            TreeNode temp = node.left;
-            node.left = node.right;
-            node.right = temp;
-        }
-    }
-
-    public void printPaths(TreeNode root) {
-        int[] path = new int[1000];
-        printPaths(root, path, 0);
-    }
-
-    /**
-     * Recursive printPaths helper -- given a node, and an array containing
-     * the path from the root node up to but not including this node,
-     * prints out all the root-leaf paths.
-     */
-    private void printPaths(TreeNode node, int[] path, int pathLen) {
-        if (node == null) return;
-
-        // append this node to the path array
-        path[pathLen] = node.val;
-        pathLen++;
-
-        // it's a leaf, so print the path that led to here
-        if (node.left == null && node.right == null) {
-            printArray(path, pathLen);
-        } else {
-            // otherwise try both subtrees
-            printPaths(node.left, path, pathLen);
-            printPaths(node.right, path, pathLen);
-        }
-    }
-
-    /**
-     * Utility that prints ints from an array on one line.
-     */
-    private void printArray(int[] ints, int len) {
-        int i;
-        for (i = 0; i < len; i++) {
-            System.out.print(ints[i] + " ");
-        }
-        System.out.println();
-    }
-
-
-    //************************************************************************************************************
     // Same Tree Non-recursive - using DFS (Stack) - pop & push
     //************************************************************************************************************
 
@@ -635,6 +592,48 @@ public class BinaryTree {
         }
 
         return true;
+    }
+
+    //************************************************************************************************************
+    // Helper
+    //************************************************************************************************************
+
+    public void printPaths(TreeNode root) {
+        int[] path = new int[1000];
+        printPaths(root, path, 0);
+    }
+
+    /**
+     * Recursive printPaths helper -- given a node, and an array containing
+     * the path from the root node up to but not including this node,
+     * prints out all the root-leaf paths.
+     */
+    private void printPaths(TreeNode node, int[] path, int pathLen) {
+        if (node == null) return;
+
+        // append this node to the path array
+        path[pathLen] = node.val;
+        pathLen++;
+
+        // it's a leaf, so print the path that led to here
+        if (node.left == null && node.right == null) {
+            printArray(path, pathLen);
+        } else {
+            // otherwise try both subtrees
+            printPaths(node.left, path, pathLen);
+            printPaths(node.right, path, pathLen);
+        }
+    }
+
+    /**
+     * Utility that prints ints from an array on one line.
+     */
+    private void printArray(int[] ints, int len) {
+        int i;
+        for (i = 0; i < len; i++) {
+            System.out.print(ints[i] + " ");
+        }
+        System.out.println();
     }
 
     //************************************************************************************************************
