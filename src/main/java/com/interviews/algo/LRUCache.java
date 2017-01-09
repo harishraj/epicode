@@ -1,113 +1,112 @@
 package com.interviews.algo;
 
-import java.util.HashMap;
+import java.util.Hashtable;
 
 public class LRUCache {
-    public LinkedListNode listTail = null;
-    private int maxCacheSize;
-    private HashMap<Integer, LinkedListNode> map = new HashMap<Integer, LinkedListNode>();
-    private LinkedListNode listHead = null;
 
-
-    public LRUCache(int maxSize) {
-        maxCacheSize = maxSize;
+    class DLinkedNode {
+        int key;
+        int value;
+        DLinkedNode pre;
+        DLinkedNode post;
     }
 
-    /* Get value for key and mark as most recently used. */
-    public String getValue(int key) {
-        LinkedListNode item = map.get(key);
-        if (item == null) {
-            return null;
-        }
+    /**
+     * Always add the new node right after head;
+     */
+    private void addNode(DLinkedNode node) {
+        node.pre = head;
+        node.post = head.post;
 
-		/* Move to front of list to mark as most recently used. */
-        if (item != listHead) {
-            removeFromLinkedList(item);
-            insertAtFrontOfLinkedList(item);
-        }
-        return item.value;
+        head.post.pre = node;
+        head.post = node;
     }
 
-    /* Remove node from linked list. */
-    private void removeFromLinkedList(LinkedListNode node) {
+    /**
+     * Remove an existing node from the linked list.
+     */
+    private void removeNode(DLinkedNode node) {
+        DLinkedNode pre = node.pre;
+        DLinkedNode post = node.post;
+
+        pre.post = post;
+        post.pre = pre;
+    }
+
+    /**
+     * Move certain node in between to the head.
+     */
+    private void moveToHead(DLinkedNode node) {
+        this.removeNode(node);
+        this.addNode(node);
+    }
+
+    // pop the current tail.
+    private DLinkedNode popTail() {
+        DLinkedNode res = tail.pre;
+        this.removeNode(res);
+        return res;
+    }
+
+    private Hashtable<Integer, DLinkedNode>
+            cache = new Hashtable<Integer, DLinkedNode>();
+    private int count;
+    private int capacity;
+    private DLinkedNode head, tail;
+
+    public LRUCache(int capacity) {
+        this.count = 0;
+        this.capacity = capacity;
+
+        head = new DLinkedNode();
+        head.pre = null;
+
+        tail = new DLinkedNode();
+        tail.post = null;
+
+        head.post = tail;
+        tail.pre = head;
+    }
+
+    public int get(int key) {
+
+        DLinkedNode node = cache.get(key);
         if (node == null) {
-            return;
+            return -1; // should raise exception here.
         }
-        if (node.prev != null) {
-            node.prev.next = node.next;
-        }
-        if (node.next != null) {
-            node.next.prev = node.prev;
-        }
-        if (node == listTail) {
-            listTail = node.prev;
-        }
-        if (node == listHead) {
-            listHead = node.next;
-        }
+
+        // move the accessed node to the head;
+        this.moveToHead(node);
+
+        return node.value;
     }
 
-    /* Insert node at front of linked list. */
-    private void insertAtFrontOfLinkedList(LinkedListNode node) {
-        if (listHead == null) {
-            listHead = node;
-            listTail = node;
-        } else {
-            listHead.prev = node;
-            node.next = listHead;
-            listHead = node;
-        }
-    }
+    public void set(int key, int value) {
+        DLinkedNode node = cache.get(key);
 
-    /* Remove key, value pair from cache, deleting from hash table
-     * and linked list. */
-    public boolean removeKey(int key) {
-        LinkedListNode node = map.get(key);
-        removeFromLinkedList(node);
-        map.remove(key);
-        return true;
-    }
+        if (node == null) {
 
-    /* Put key, value pair in cache. Removes old value for key if
-     * necessary. Inserts pair into linked list and hash table.*/
-    public void setKeyValue(int key, String value) {
-        /* Remove if already there. */
-        removeKey(key);
+            DLinkedNode newNode = new DLinkedNode();
+            newNode.key = key;
+            newNode.value = value;
 
-		/* If full, remove least recently used item from cache. */
-        if (map.size() >= maxCacheSize && listTail != null) {
-            removeKey(listTail.key);
-        }
+            this.cache.put(key, newNode);
+            this.addNode(newNode);
 
-		/* Insert new node. */
-        LinkedListNode node = new LinkedListNode(key, value);
-        insertAtFrontOfLinkedList(node);
-        map.put(key, node);
-    }
+            ++count;
 
-    public String getCacheAsString() {
-        if (listHead == null) return "";
-        return listHead.printForward();
-    }
-
-    private class LinkedListNode {
-        public int key;
-        public String value;
-        private LinkedListNode next;
-        private LinkedListNode prev;
-
-        public LinkedListNode(int k, String v) {
-            key = k;
-            value = v;
-        }
-
-        public String printForward() {
-            String data = "(" + key + "," + value + ")";
-            if (next != null) {
-                return data + "->" + next.printForward();
-            } else {
-                return data;
+            if (count > capacity) {
+                // pop the tail
+                DLinkedNode tail = this.popTail();
+                this.cache.remove(tail.key);
+                --count;
             }
+        } else {
+            // update the value.
+            node.value = value;
+            this.moveToHead(node);
         }
+
     }
+
 }
