@@ -7,6 +7,7 @@ import java.util.LinkedList;
  * character.
  */
 class TreeNode {
+
     public int val;
     public TreeNode left;
     public TreeNode right;
@@ -37,72 +38,20 @@ class TreeNode {
 public class BinaryTree {
 
     //************************************************************************************************************
+    // Count Number of Nodes
+    //************************************************************************************************************
+
+    public int countNumberOfNodes(TreeNode root) {
+
+        if (root == null)
+            return 0;
+        return 1 + countNumberOfNodes(root.left) + countNumberOfNodes(root.right);
+    }
+
+
+    //************************************************************************************************************
     // max depth of the tree
     //************************************************************************************************************
-
-    int maxValue;
-
-    //************************************************************************************************************
-    // min depth of the tree
-    //************************************************************************************************************
-    private TreeNode prev = null;
-
-    //************************************************************************************************************
-    // Same Tree Recursive
-    //************************************************************************************************************
-
-    public static int countTrees(int numKeys) {
-
-        if (numKeys <= 1) {
-            return (1);
-        } else {
-            // there will be one value at the root, with whatever remains
-            // on the left and right each forming their own subtrees.
-            // Iterate through all the values that could be the root...
-            int sum = 0;
-            int left, right, root;
-
-            for (root = 1; root <= numKeys; root++) {
-                left = countTrees(root - 1);
-                right = countTrees(numKeys - root);
-
-                // number of possible trees with this root == left*right
-                sum += left * right;
-            }
-
-            return (sum);
-        }
-    }
-
-    //************************************************************************************************************
-    // Symmetric  recursive
-    //************************************************************************************************************
-
-    public static void main(String args[]) {
-
-        TreeNode root = new TreeNode(6);
-
-        TreeNode left1 = new TreeNode(8);
-        TreeNode right1 = new TreeNode(10);
-
-        TreeNode left2 = new TreeNode(11);
-        TreeNode right2 = new TreeNode(1);
-
-        root.setLeft(left1);
-
-        left1.right = right2;
-
-        root.left = left1;
-        root.right = right1;
-
-        BinaryTree binaryTree = new BinaryTree();
-        int minRes = binaryTree.minDepth(root);
-        int maxRes = binaryTree.maxDepth(root);
-
-        System.out.println(minRes);
-        System.out.println(maxRes);
-
-    }
 
     public int maxDepth(TreeNode root) {
 
@@ -113,7 +62,7 @@ public class BinaryTree {
     }
 
     //************************************************************************************************************
-    // is Balanced Binary Tree
+    // min depth of the tree
     //************************************************************************************************************
 
     public int minDepth(TreeNode root) {
@@ -128,7 +77,7 @@ public class BinaryTree {
     }
 
     //************************************************************************************************************
-    // Max Value
+    // Same Tree Recursive
     //************************************************************************************************************
 
     public boolean isSameTreeRecursive(TreeNode p, TreeNode q) {
@@ -140,6 +89,10 @@ public class BinaryTree {
             return isSameTreeRecursive(p.left, q.left) && isSameTreeRecursive(p.right, q.right);
         return false;
     }
+
+    //************************************************************************************************************
+    // Symmetric  recursive
+    //************************************************************************************************************
 
     public boolean isSymmetric(TreeNode root) {
         return root == null || isSymmetricHelp(root.left, root.right);
@@ -157,7 +110,7 @@ public class BinaryTree {
     }
 
     //************************************************************************************************************
-    // LCA
+    // is Balanced Binary Tree
     //************************************************************************************************************
 
     public Boolean isBalanced(TreeNode root) {
@@ -171,18 +124,16 @@ public class BinaryTree {
     }
 
     //************************************************************************************************************
-    // invert tree - Recursive
+    // get Max Path sum
     //************************************************************************************************************
+
+    int maxValue;
 
     public int maxPathSum(TreeNode root) {
         maxValue = Integer.MIN_VALUE;
         maxPathDown(root);
         return maxValue;
     }
-
-    //************************************************************************************************************
-    // double Tree
-    //************************************************************************************************************
 
     private int maxPathDown(TreeNode node) {
 
@@ -197,7 +148,7 @@ public class BinaryTree {
     }
 
     //************************************************************************************************************
-    // PreOrder - root, left, right
+    // LCA
     //************************************************************************************************************
 
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
@@ -217,7 +168,7 @@ public class BinaryTree {
     }
 
     //************************************************************************************************************
-    // inOrder - left, root, right
+    // invert tree - Recursive
     //************************************************************************************************************
 
     public TreeNode invertTreeRecursive(TreeNode root) {
@@ -235,7 +186,7 @@ public class BinaryTree {
     }
 
     //************************************************************************************************************
-    // PostOrder - left, right, root
+    // double Tree
     //************************************************************************************************************
 
     private void doubleTree(TreeNode node) {
@@ -254,7 +205,7 @@ public class BinaryTree {
     }
 
     //************************************************************************************************************
-    // Level Order - Use Queue
+    // PreOrder - root, left, right
     //************************************************************************************************************
 
     public void preOrder(TreeNode node) {
@@ -266,7 +217,7 @@ public class BinaryTree {
     }
 
     //************************************************************************************************************
-    // Serialize/ DeSerialize  recursive
+    // inOrder - left, root, right
     //************************************************************************************************************
 
     public void inOrder(TreeNode node) {
@@ -278,6 +229,10 @@ public class BinaryTree {
         }
     }
 
+    //************************************************************************************************************
+    // PostOrder - left, right, root
+    //************************************************************************************************************
+
     public void postOrder(TreeNode node) {
 
         if (node != null) {
@@ -287,6 +242,10 @@ public class BinaryTree {
             System.out.println(node.val);
         }
     }
+
+    //************************************************************************************************************
+    // Level Order - Use Queue
+    //************************************************************************************************************
 
     public List<List<Integer>> levelOrder(TreeNode root) {
 
@@ -315,13 +274,14 @@ public class BinaryTree {
         return wrapList;
     }
 
+    //************************************************************************************************************
+    // Serialize/ DeSerialize  recursive
+    //************************************************************************************************************
+
     public String serialize(TreeNode root) {
+
         return serial(new StringBuilder(), root).toString();
     }
-
-    //************************************************************************************************************
-    // Count Number of Nodes
-    //************************************************************************************************************
 
     private StringBuilder serial(StringBuilder str, TreeNode root) {
         if (root == null) return str.append("#");
@@ -330,17 +290,10 @@ public class BinaryTree {
         return serial(str, root.right);
     }
 
-    //************************************************************************************************************
-    // hasPathSum
-    //************************************************************************************************************
-
     public TreeNode deserialize(String data) {
+
         return deserial(new LinkedList<>(Arrays.asList(data.split(","))));
     }
-
-    //************************************************************************************************************
-    // kth Smallest
-    //************************************************************************************************************
 
     private TreeNode deserial(LinkedList<String> queue) {
         String val = queue.poll(); // return null if empty
@@ -351,15 +304,8 @@ public class BinaryTree {
         return root;
     }
 
-    public int countNumberOfNodes(TreeNode root) {
-
-        if (root == null)
-            return 0;
-        return 1 + countNumberOfNodes(root.left) + countNumberOfNodes(root.right);
-    }
-
     //************************************************************************************************************
-    // all paths from root to leaf
+    // hasPathSum
     //************************************************************************************************************
 
     public boolean hasPathSum(TreeNode root, int sum) {
@@ -371,9 +317,13 @@ public class BinaryTree {
         return hasPathSum(root.left, sum - root.val) || hasPathSum(root.right, sum - root.val);
     }
 
+    //************************************************************************************************************
+    // kth Smallest
+    //************************************************************************************************************
+
     public int kthSmallest(TreeNode root, int k) {
 
-        int count = countNodes(root.left);
+        int count = countNumberOfNodes(root.left);
         if (k <= count) {
             return kthSmallest(root.left, k);
         } else if (k > count + 1) {
@@ -384,15 +334,9 @@ public class BinaryTree {
     }
 
     //************************************************************************************************************
-    // Flatten Binary Tree to Linked List
+    // Given a binary tree, prints out all of its root-to-leaf
+    // paths, one per line. Uses a recursive helper to do the work.
     //************************************************************************************************************
-
-    public int countNodes(TreeNode n) {
-
-        if (n == null) return 0;
-
-        return 1 + countNodes(n.left) + countNodes(n.right);
-    }
 
     public List<String> binaryTreePaths(TreeNode root) {
 
@@ -400,12 +344,6 @@ public class BinaryTree {
         if (root != null) searchBT(root, "", result);
         return result;
     }
-
-    //************************************************************************************************************
-    // Given a binary tree where all the right nodes are either leaf nodes with a sibling
-    // (a left node that shares the same parent node) or empty, flip it upside down and turn it into a tree
-    // where the original right nodes turned into left leaf nodes. Return the new root.
-    //************************************************************************************************************
 
     private void searchBT(TreeNode root, String path, List<String> result) {
 
@@ -415,8 +353,10 @@ public class BinaryTree {
     }
 
     //************************************************************************************************************
-    // is Binary Search Tree
+    // Flatten Binary Tree to Linked List
     //************************************************************************************************************
+
+    private TreeNode prev = null;
 
     public void flatten(TreeNode root) {
 
@@ -428,6 +368,12 @@ public class BinaryTree {
         root.left = null;
         prev = root;
     }
+
+    //************************************************************************************************************
+    // Given a binary tree where all the right nodes are either leaf nodes with a sibling
+    // (a left node that shares the same parent node) or empty, flip it upside down and turn it into a tree
+    // where the original right nodes turned into left leaf nodes. Return the new root.
+    //************************************************************************************************************
 
     public TreeNode upsideDownBinaryTree(TreeNode root) {
         if (root == null || root.left == null && root.right == null)
@@ -450,13 +396,36 @@ public class BinaryTree {
     //  Recursively find the size of the left and right subtrees.
     //************************************************************************************************************
 
-    public boolean isBST(TreeNode root) {
-        return (isBST(root, Integer.MIN_VALUE, Integer.MAX_VALUE));
+    public static int countTrees(int numKeys) {
+
+        if (numKeys <= 1) {
+            return (1);
+        } else {
+            // there will be one value at the root, with whatever remains
+            // on the left and right each forming their own subtrees.
+            // Iterate through all the values that could be the root...
+            int sum = 0;
+            int left, right, root;
+
+            for (root = 1; root <= numKeys; root++) {
+                left = countTrees(root - 1);
+                right = countTrees(numKeys - root);
+
+                // number of possible trees with this root == left*right
+                sum += left * right;
+            }
+
+            return (sum);
+        }
     }
 
     //************************************************************************************************************
-    // Mirror trees
+    // is Binary Search Tree
     //************************************************************************************************************
+
+    public boolean isBST(TreeNode root) {
+        return (isBST(root, Integer.MIN_VALUE, Integer.MAX_VALUE));
+    }
 
     private boolean isBST(TreeNode node, int min, int max) {
         if (node == null) {
@@ -476,8 +445,7 @@ public class BinaryTree {
     }
 
     //************************************************************************************************************
-    // Given a binary tree, prints out all of its root-to-leaf
-    // paths, one per line. Uses a recursive helper to do the work.
+    // Mirror trees
     //************************************************************************************************************
 
     private void mirror(TreeNode node) {
@@ -520,10 +488,6 @@ public class BinaryTree {
         }
     }
 
-    //************************************************************************************************************
-    // Same Tree Non-recursive - using DFS (Stack) - pop & push
-    //************************************************************************************************************
-
     /**
      * Utility that prints ints from an array on one line.
      */
@@ -535,8 +499,9 @@ public class BinaryTree {
         System.out.println();
     }
 
+
     //************************************************************************************************************
-    // DFS - uses Stack - Pop & Push
+    // Same Tree Non-recursive - using DFS (Stack) - pop & push
     //************************************************************************************************************
 
     public boolean isSameTree(TreeNode p, TreeNode q) {
@@ -567,7 +532,7 @@ public class BinaryTree {
     }
 
     //************************************************************************************************************
-    // BFS - uses Queue - Poll & Offer
+    // DFS - uses Stack - Pop & Push
     //************************************************************************************************************
 
     public TreeNode invertTreeDFS(TreeNode root) {
@@ -597,7 +562,7 @@ public class BinaryTree {
     }
 
     //************************************************************************************************************
-    // Symmetric non-recursive
+    // BFS - uses Queue - Poll & Pop
     //************************************************************************************************************
 
     public TreeNode invertTree(TreeNode root) {
@@ -628,7 +593,7 @@ public class BinaryTree {
     }
 
     //************************************************************************************************************
-    // main method
+    // Symmetric non-recursive
     //************************************************************************************************************
 
     public boolean isSymmetricIterative(TreeNode root) {
@@ -671,4 +636,35 @@ public class BinaryTree {
 
         return true;
     }
+
+    //************************************************************************************************************
+    // main method
+    //************************************************************************************************************
+
+    public static void main(String args[]) {
+
+        TreeNode root = new TreeNode(6);
+
+        TreeNode left1 = new TreeNode(8);
+        TreeNode right1 = new TreeNode(10);
+
+        TreeNode left2 = new TreeNode(11);
+        TreeNode right2 = new TreeNode(1);
+
+        root.setLeft(left1);
+
+        left1.right = right2;
+
+        root.left = left1;
+        root.right = right1;
+
+        BinaryTree binaryTree = new BinaryTree();
+        int minRes = binaryTree.minDepth(root);
+        int maxRes = binaryTree.maxDepth(root);
+
+        System.out.println(minRes);
+        System.out.println(maxRes);
+
+    }
+
 }

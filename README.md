@@ -7,6 +7,6 @@ by Adnan Aziz Tsung-Hsien Lee Amit Prakash.
 
 3. This project contains the source code that accompanies the book Hadoop in Practice, Second Edition by Alex Holmes.
 
-4. Some of the solutions were taken from leetcode and geeksforgeeks.
+4. This project also contains the solutions from leetcode and geeksforgeeks.
 
-
+5. This project contains the solutions from Tushar Roy in his project https://github.com/mission-peace/interview
