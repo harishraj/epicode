@@ -1,27 +1,30 @@
 package com.interviews.ds;
 
+import java.util.Comparator;
+import java.util.List;
+import java.util.PriorityQueue;
 import java.util.Stack;
 
-class LinkedListNode {
-    public LinkedListNode next;
-    public LinkedListNode prev;
-    public LinkedListNode last;
+class ListNode {
+    public ListNode next;
+    public ListNode prev;
+    public ListNode last;
     public int data;
 
-    public LinkedListNode(int d, LinkedListNode n, LinkedListNode p) {
+    public ListNode(int d, ListNode n, ListNode p) {
         data = d;
         setNext(n);
         setPrevious(p);
     }
 
-    public LinkedListNode(int d) {
+    public ListNode(int d) {
         data = d;
     }
 
-    public LinkedListNode() {
+    public ListNode() {
     }
 
-    public void setNext(LinkedListNode n) {
+    public void setNext(ListNode n) {
         next = n;
         if (this == last) {
             last = n;
@@ -31,7 +34,7 @@ class LinkedListNode {
         }
     }
 
-    public void setPrevious(LinkedListNode p) {
+    public void setPrevious(ListNode p) {
         prev = p;
         if (p != null && p.next != this) {
             p.setNext(this);
@@ -46,12 +49,12 @@ class LinkedListNode {
         }
     }
 
-    public LinkedListNode clone() {
-        LinkedListNode next2 = null;
+    public ListNode clone() {
+        ListNode next2 = null;
         if (next != null) {
             next2 = next.clone();
         }
-        LinkedListNode head2 = new LinkedListNode(data, next2, null);
+        ListNode head2 = new ListNode(data, next2, null);
         return head2;
     }
 
@@ -59,11 +62,39 @@ class LinkedListNode {
 
 public class LinkedList {
 
-    public static void deleteDups(LinkedListNode head) {
-        LinkedListNode current = head;
+    // https://leetcode.com/problems/add-two-numbers/
+
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode c1 = l1;
+        ListNode c2 = l2;
+        ListNode sentinel = new ListNode(0);
+        ListNode d = sentinel;
+        int sum = 0;
+        while (c1 != null || c2 != null) {
+            sum /= 10;
+            if (c1 != null) {
+                sum += c1.data;
+                c1 = c1.next;
+            }
+            if (c2 != null) {
+                sum += c2.data;
+                c2 = c2.next;
+            }
+            d.next = new ListNode(sum % 10);
+            d = d.next;
+        }
+        if (sum / 10 == 1)
+            d.next = new ListNode(1);
+        return sentinel.next;
+    }
+
+
+
+    public static void deleteDups(ListNode head) {
+        ListNode current = head;
         while (current != null) {
             /* Remove all future nodes that have the same value */
-            LinkedListNode runner = current;
+            ListNode runner = current;
             while (runner.next != null) {
                 if (runner.next.data == current.data) {
                     runner.next = runner.next.next;
@@ -80,30 +111,131 @@ public class LinkedList {
      *
      */
 
-    public static boolean deleteNode(LinkedListNode n) {
+    public static boolean deleteNode(ListNode n) {
 
         if (n == null || n.next == null) {
             return false; // Failure
         }
-        LinkedListNode next = n.next;
+        ListNode next = n.next;
         n.data = next.data;
         n.next = next.next;
         return true;
     }
+
+    // https://leetcode.com/problems/sort-list/
+
+    public ListNode sortList(ListNode head) {
+        if (head == null || head.next == null)
+            return head;
+
+        // step 1. cut the list to two halves
+        ListNode prev = null, slow = head, fast = head;
+
+        while (fast != null && fast.next != null) {
+            prev = slow;
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+
+        prev.next = null;
+
+        // step 2. sort each half
+        ListNode l1 = sortList(head);
+        ListNode l2 = sortList(slow);
+
+        // step 3. merge l1 and l2
+        return merge(l1, l2);
+    }
+
+    ListNode merge(ListNode l1, ListNode l2) {
+        ListNode l = new ListNode(0), p = l;
+
+        while (l1 != null && l2 != null) {
+            if (l1.data < l2.data) {
+                p.next = l1;
+                l1 = l1.next;
+            } else {
+                p.next = l2;
+                l2 = l2.next;
+            }
+            p = p.next;
+        }
+
+        if (l1 != null)
+            p.next = l1;
+
+        if (l2 != null)
+            p.next = l2;
+
+        return l.next;
+    }
+
+    // https://leetcode.com/problems/odd-even-linked-list/
+
+    public ListNode oddEvenList(ListNode head) {
+        if (head != null) {
+
+            ListNode odd = head, even = head.next, evenHead = even;
+
+            while (even != null && even.next != null) {
+                odd.next = odd.next.next;
+                even.next = even.next.next;
+                odd = odd.next;
+                even = even.next;
+            }
+            odd.next = evenHead;
+        }
+        return head;
+    }
+
+    // https://leetcode.com/problems/merge-k-sorted-lists/
+
+    public ListNode mergeKLists(List<ListNode> lists) {
+        if (lists==null||lists.size()==0) return null;
+
+        PriorityQueue<ListNode> queue= new PriorityQueue<ListNode>(lists.size(),new Comparator<ListNode>(){
+            @Override
+            public int compare(ListNode o1,ListNode o2){
+                if (o1.data < o2.data)
+                    return -1;
+                else if (o1.data == o2.data)
+                    return 0;
+                else
+                    return 1;
+            }
+        });
+
+        ListNode dummy = new ListNode(0);
+        ListNode tail=dummy;
+
+        for (ListNode node:lists)
+            if (node!=null)
+                queue.add(node);
+
+        while (!queue.isEmpty()){
+            tail.next=queue.poll();
+            tail=tail.next;
+
+            if (tail.next!=null)
+                queue.add(tail.next);
+        }
+        return dummy.next;
+    }
+
 
     /***
      *
      *
      */
 
-    public static LinkedListNode partition(LinkedListNode node, int x) {
+    public static ListNode partition(ListNode node, int x) {
 
-        LinkedListNode head = node;
-        LinkedListNode tail = node;
+        ListNode head = node;
+        ListNode tail = node;
 
 		/* Partition list */
         while (node != null) {
-            LinkedListNode next = node.next;
+            ListNode next = node.next;
             if (node.data < x) {
                 /* Insert node at head. */
                 node.next = head;
@@ -122,12 +254,12 @@ public class LinkedList {
 
     /***
      *
-     *
+     * https://leetcode.com/problems/palindrome-linked-list/
      */
 
-    public static boolean isPalindrome(LinkedListNode head) {
-        LinkedListNode fast = head;
-        LinkedListNode slow = head;
+    public static boolean isPalindrome(ListNode head) {
+        ListNode fast = head;
+        ListNode slow = head;
 
         Stack<Integer> stack = new Stack<Integer>();
 
@@ -157,10 +289,10 @@ public class LinkedList {
      *
      */
 
-    public static LinkedListNode nthToLast(LinkedListNode head, int k) {
+    public static ListNode nthToLast(ListNode head, int k) {
 
-        LinkedListNode p1 = head;
-        LinkedListNode p2 = head;
+        ListNode p1 = head;
+        ListNode p2 = head;
 
 		/* Move p1 k nodes into the list.*/
         for (int i = 0; i < k; i++) {
@@ -177,11 +309,11 @@ public class LinkedList {
         return p2;
     }
 
-    public static Result getTailAndSize(LinkedListNode list) {
+    public static Result getTailAndSize(ListNode list) {
         if (list == null) return null;
 
         int size = 1;
-        LinkedListNode current = list;
+        ListNode current = list;
         while (current.next != null) {
             size++;
             current = current.next;
@@ -189,8 +321,8 @@ public class LinkedList {
         return new Result(current, size);
     }
 
-    public static LinkedListNode getKthNode(LinkedListNode head, int k) {
-        LinkedListNode current = head;
+    public static ListNode getKthNode(ListNode head, int k) {
+        ListNode current = head;
         while (k > 0 && current != null) {
             current = current.next;
             k--;
@@ -198,7 +330,7 @@ public class LinkedList {
         return current;
     }
 
-    public static LinkedListNode findIntersection(LinkedListNode list1, LinkedListNode list2) {
+    public static ListNode findIntersection(ListNode list1, ListNode list2) {
         if (list1 == null || list2 == null) return null;
 
 		/* Get tail and sizes. */
@@ -211,8 +343,8 @@ public class LinkedList {
         }
 
 		/* Set pointers to the start of each linked list. */
-        LinkedListNode shorter = result1.size < result2.size ? list1 : list2;
-        LinkedListNode longer = result1.size < result2.size ? list2 : list1;
+        ListNode shorter = result1.size < result2.size ? list1 : list2;
+        ListNode longer = result1.size < result2.size ? list2 : list1;
 
 		/* Advance the pointer for the longer linked list by the difference in lengths. */
         longer = getKthNode(longer, Math.abs(result1.size - result2.size));
@@ -228,12 +360,37 @@ public class LinkedList {
     }
 
     /**
+     * https://leetcode.com/problems/rotate-list/
+     */
+
+    public ListNode rotateRight(ListNode head, int n) {
+        if (head==null||head.next==null) return head;
+        ListNode dummy=new ListNode(0);
+        dummy.next=head;
+        ListNode fast=dummy,slow=dummy;
+
+        int i;
+        for (i=0;fast.next!=null;i++)//Get the total length
+            fast=fast.next;
+
+        for (int j=i-n%i;j>0;j--) //Get the i-n%i th node
+            slow=slow.next;
+
+        fast.next=dummy.next; //Do the rotation
+        dummy.next=slow.next;
+        slow.next=null;
+
+        return dummy.next;
+    }
+
+
+    /**
      *
      */
 
-    public static LinkedListNode FindBeginning(LinkedListNode head) {
-        LinkedListNode slow = head;
-        LinkedListNode fast = head;
+    public static ListNode FindBeginning(ListNode head) {
+        ListNode slow = head;
+        ListNode fast = head;
 
         // Find meeting point
         while (fast != null && fast.next != null) {
@@ -263,19 +420,63 @@ public class LinkedList {
         return fast;
     }
 
+    // https://leetcode.com/problems/swap-nodes-in-pairs/
+
+    public ListNode swapPairs(ListNode head) {
+        if ((head == null)||(head.next == null))
+            return head;
+        ListNode n = head.next;
+        head.next = swapPairs(head.next.next);
+        n.next = head;
+        return n;
+    }
+
+    // https://leetcode.com/problems/plus-one-linked-list/
+
+    public ListNode plusOne(ListNode head) {
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode i = dummy;
+        ListNode j = dummy;
+
+        while (j.next != null) {
+            j = j.next;
+            if (j.data != 9) {
+                i = j;
+            }
+        }
+
+        if (j.data != 9) {
+            j.data++;
+        } else {
+            i.data++;
+            i = i.next;
+            while (i != null) {
+                i.data = 0;
+                i = i.next;
+            }
+        }
+
+        if (dummy.data == 0) {
+            return dummy.next;
+        }
+
+        return dummy;
+    }
+
     /***
      *
      *
      */
 
 
-    public static LinkedListNode createLinkedList() {
+    public static ListNode createLinkedList() {
 
         int[] vals = {3, 5, 8, 5, 10, 2, 1};
-        LinkedListNode head = new LinkedListNode(vals[0], null, null);
-        LinkedListNode current = head;
+        ListNode head = new ListNode(vals[0], null, null);
+        ListNode current = head;
         for (int i = 1; i < vals.length; i++) {
-            current = new LinkedListNode(vals[i], null, current);
+            current = new ListNode(vals[i], null, current);
         }
         return head;
     }
@@ -285,7 +486,7 @@ public class LinkedList {
         System.out.println(createLinkedList().printForward());
 
 		/* Partition */
-        LinkedListNode hA = partition(createLinkedList(), 5);
+        ListNode hA = partition(createLinkedList(), 5);
 
         System.out.println(hA.printForward());
 
@@ -297,10 +498,10 @@ public class LinkedList {
      */
 
     public static class Result {
-        public LinkedListNode tail;
+        public ListNode tail;
         public int size;
 
-        public Result(LinkedListNode tail, int size) {
+        public Result(ListNode tail, int size) {
             this.tail = tail;
             this.size = size;
         }
