@@ -1,8 +1,7 @@
 package com.interviews.mapreduce.sort.secondary;
 
-
-import hip.util.Cli;
-import hip.util.CliCommonOpts;
+import com.interviews.mapreduce.util.Cli;
+import com.interviews.mapreduce.util.CliCommonOpts;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;

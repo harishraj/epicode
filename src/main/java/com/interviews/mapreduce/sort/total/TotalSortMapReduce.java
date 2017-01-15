@@ -1,7 +1,6 @@
 package com.interviews.mapreduce.sort.total;
 
-
-import hip.util.Cli;
+import com.interviews.mapreduce.util.Cli;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;

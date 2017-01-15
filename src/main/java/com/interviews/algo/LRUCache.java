@@ -7,30 +7,30 @@ public class LRUCache {
     class DLinkedNode {
         int key;
         int value;
-        DLinkedNode pre;
-        DLinkedNode post;
+        DLinkedNode prev;
+        DLinkedNode next;
     }
 
     /**
      * Always add the new node right after head;
      */
     private void addNode(DLinkedNode node) {
-        node.pre = head;
-        node.post = head.post;
+        node.prev = head;
+        node.next = head.next;
 
-        head.post.pre = node;
-        head.post = node;
+        head.next.prev = node;
+        head.next = node;
     }
 
     /**
      * Remove an existing node from the linked list.
      */
     private void removeNode(DLinkedNode node) {
-        DLinkedNode pre = node.pre;
-        DLinkedNode post = node.post;
+        DLinkedNode pre = node.prev;
+        DLinkedNode post = node.next;
 
-        pre.post = post;
-        post.pre = pre;
+        pre.next = post;
+        post.prev = pre;
     }
 
     /**
@@ -43,13 +43,12 @@ public class LRUCache {
 
     // pop the current tail.
     private DLinkedNode popTail() {
-        DLinkedNode res = tail.pre;
+        DLinkedNode res = tail.prev;
         this.removeNode(res);
         return res;
     }
 
-    private Hashtable<Integer, DLinkedNode>
-            cache = new Hashtable<Integer, DLinkedNode>();
+    private Hashtable<Integer, DLinkedNode> cache = new Hashtable<Integer, DLinkedNode>();
     private int count;
     private int capacity;
     private DLinkedNode head, tail;
@@ -59,13 +58,13 @@ public class LRUCache {
         this.capacity = capacity;
 
         head = new DLinkedNode();
-        head.pre = null;
+        head.prev = null;
 
         tail = new DLinkedNode();
-        tail.post = null;
+        tail.next = null;
 
-        head.post = tail;
-        tail.pre = head;
+        head.next = tail;
+        tail.prev = head;
     }
 
     public int get(int key) {

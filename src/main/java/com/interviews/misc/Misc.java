@@ -278,6 +278,102 @@ public class Misc {
         return new ArrayList<List<String>>(map.values());
     }
 
+    // https://leetcode.com/problems/roman-to-integer/
+
+    public int romanToInt(String s) {
+        int sum=0;
+        if(s.indexOf("IV")!=-1){sum-=2;}
+        if(s.indexOf("IX")!=-1){sum-=2;}
+        if(s.indexOf("XL")!=-1){sum-=20;}
+        if(s.indexOf("XC")!=-1){sum-=20;}
+        if(s.indexOf("CD")!=-1){sum-=200;}
+        if(s.indexOf("CM")!=-1){sum-=200;}
+
+        char c[]=s.toCharArray();
+        int count=0;
+
+        for(;count<=s.length()-1;count++){
+            if(c[count]=='M') sum+=1000;
+            if(c[count]=='D') sum+=500;
+            if(c[count]=='C') sum+=100;
+            if(c[count]=='L') sum+=50;
+            if(c[count]=='X') sum+=10;
+            if(c[count]=='V') sum+=5;
+            if(c[count]=='I') sum+=1;
+
+        }
+
+        return sum;
+
+    }
+
+    // https://leetcode.com/problems/excel-sheet-column-number/
+
+    public int excelColumn(String s) {
+        int result = 0;
+        int i = 0;
+
+        while(i < s.length()) {
+            int ascVal = s.charAt(i) - 'A' + 1;
+            result = result * 26 + ascVal;
+            i++;
+        }
+
+        return result;
+    }
+
+    // https://leetcode.com/problems/string-to-integer-atoi/
+
+    public int myAtoi(String str) {
+        int index = 0, sign = 1, total = 0;
+        //1. Empty string
+        if(str.length() == 0) return 0;
+
+        //2. Remove Spaces
+        while(str.charAt(index) == ' ' && index < str.length())
+            index ++;
+
+        //3. Handle signs
+        if(str.charAt(index) == '+' || str.charAt(index) == '-'){
+            sign = str.charAt(index) == '+' ? 1 : -1;
+            index ++;
+        }
+
+        //4. Convert number and avoid overflow
+        while(index < str.length()){
+            int digit = str.charAt(index) - '0'; // convert ascii to number
+            if(digit < 0 || digit > 9) break;
+
+            //check if total will be overflow after 10 times and add digit
+            if(Integer.MAX_VALUE/10 < total || Integer.MAX_VALUE/10 == total && Integer.MAX_VALUE %10 < digit)
+                return sign == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
+
+            total = 10 * total + digit;
+            index ++;
+        }
+        return total * sign;
+    }
+
+    // https://leetcode.com/problems/compare-version-numbers/
+
+    public int compareVersion(String version1, String version2) {
+        String[] levels1 = version1.split("\\.");
+        String[] levels2 = version2.split("\\.");
+
+        int length = Math.max(levels1.length, levels2.length);
+        for (int i=0; i<length; i++) {
+            Integer v1 = i < levels1.length ? Integer.parseInt(levels1[i]) : 0;
+            Integer v2 = i < levels2.length ? Integer.parseInt(levels2[i]) : 0;
+            int compare = v1.compareTo(v2);
+            if (compare != 0) {
+                return compare;
+            }
+        }
+
+        return 0;
+    }
+
+
 }
 
 

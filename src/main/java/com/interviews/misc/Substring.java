@@ -3,6 +3,8 @@ package com.interviews.misc;
 // https://leetcode.com/problems/minimum-window-substring/
 // https://discuss.leetcode.com/topic/30941/here-is-a-10-line-template-that-can-solve-most-substring-problems
 
+import java.util.Set;
+
 public class Substring {
 
     public String minWindow(String s, String t) {
@@ -77,6 +79,56 @@ public class Substring {
         return max == Integer.MIN_VALUE ? 0 : max;
     }
 
+    //https://leetcode.com/problems/one-edit-distance/
+
+    /*
+     * There're 3 possibilities to satisfy one edit distance apart:
+     *
+     * 1) Replace 1 char:
+          s: a B c
+          t: a D c
+     * 2) Delete 1 char from s:
+          s: a D  b c
+          t: a    b c
+     * 3) Delete 1 char from t
+          s: a   b c
+          t: a D b c
+     */
+
+
+    public boolean isOneEditDistance(String s, String t) {
+        for (int i = 0; i < Math.min(s.length(), t.length()); i++) {
+            if (s.charAt(i) != t.charAt(i)) {
+                if (s.length() == t.length())
+                    // s has the same length as t, so the only possibility is replacing one char in s and t
+                    return s.substring(i + 1).equals(t.substring(i + 1));
+                else if (s.length() < t.length())
+                    // t is longer than s, so the only possibility is deleting one char from t
+                    return s.substring(i).equals(t.substring(i + 1));
+                else // s is longer than t, so the only possibility is deleting one char from s
+                    return t.substring(i).equals(s.substring(i + 1));
+            }
+        }
+        //All previous chars are the same, the only possibility is deleting the end char in the longer one of s and t
+        return Math.abs(s.length() - t.length()) == 1;
+    }
+
+
+    public boolean wordBreak(String s, Set<String> dict) {
+            boolean [] breakable = new boolean[s.length() + 1];
+            breakable[0] = true;
+
+            for(int i=1; i<=s.length(); i++){
+                for(int j=0; j<i; j++){
+                    if(breakable[j] && dict.contains(s.substring(j,i))){
+                        breakable[i] = true;
+                        break;
+                    }
+                }
+            }
+            return breakable[s.length()];
+
+    }
 }
 
 

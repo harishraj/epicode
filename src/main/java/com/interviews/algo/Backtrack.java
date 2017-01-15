@@ -467,7 +467,8 @@ public class Backtrack {
         for(int i = 0; i < board.length; i++){
             for(int j = 0; j < board[0].length; j++){
                 if(board[i][j] == '.'){
-                    for(char c = '1'; c <= '9'; c++){//trial. Try 1 through 9
+                    for(char c = '1'; c <= '9'; c++){
+                        //trial. Try 1 through 9
                         if(isValid(board, i, j, c)){
                             board[i][j] = c; //Put c for this cell
 
@@ -494,6 +495,46 @@ public class Backtrack {
         }
         return true;
     }
+
+    // https://leetcode.com/problems/factor-combinations/
+    // Write a function that takes an integer n and return all possible combinations of its factors.
+
+    /*
+    input: 32
+        output:
+        [
+          [2, 16],
+          [2, 2, 8],
+          [2, 2, 2, 4],
+          [2, 2, 2, 2, 2],
+          [2, 4, 4],
+          [4, 8]
+        ]
+     */
+
+    public List<List<Integer>> getFactors(int n) {
+        List<List<Integer>> result = new ArrayList<List<Integer>>();
+        helper(result, new ArrayList<Integer>(), n, 2);
+        return result;
+    }
+
+    public void helper(List<List<Integer>> result, List<Integer> item, int n, int start){
+        if (n <= 1) {
+            if (item.size() > 1) {
+                result.add(new ArrayList<Integer>(item));
+            }
+            return;
+        }
+
+        for (int i = start; i <= n; ++i) {
+            if (n % i == 0) {
+                item.add(i);
+                helper(result, item, n/i, i);
+                item.remove(item.size()-1);
+            }
+        }
+    }
+
 
     //***********************************************************************************************
     //***********************************************************************************************

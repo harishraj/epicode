@@ -6,7 +6,7 @@ import org.apache.hadoop.fs.Path;
 
 import java.io.IOException;
 
-import static hip.util.Cli.ArgBuilder;
+import static com.interviews.mapreduce.util.Cli.ArgBuilder;
 
 /**
  * Common combinations of CLI options.
